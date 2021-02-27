@@ -1,0 +1,136 @@
+#navbar-brand-img {
+    width: 140px;
+}
+.navbar-link {
+    margin-left: auto;
+}
+.image {
+    width: 100%;
+    transform: translatez(0);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.second-image {
+    width: 100%;
+    position: relative;
+    transform: translatez(0);
+    min-height: 100vh;
+}
+.main-background-video {
+    /* position: relative; */
+    min-height: 100vh;
+    width: 100%;
+    z-index: 0;
+}
+.nav-cll {
+    position: absolute;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 25px;
+}
+.navbar-light .navbar-nav .nav-link  {
+    color: white !important;
+    font-weight: bold !important;
+    margin: 0px 0px 0px 35px;
+    font-size: 12px;
+    transition: color 300ms ease-out 50ms
+}
+.navbar-light .navbar-nav .nav-link:hover  {
+    color: orange !important;
+}
+.sectionOne {
+    min-height: 100vh;
+    position: relative;
+    z-index: 10;
+    background-color: white;
+}
+.sec-one-div {
+    font-size: 17px;
+    font-family: unset;
+}
+.sectionOne-container {
+    padding: 100px;
+    height: 100%;
+}
+.iframe-div {
+    width: 50%;
+    margin: 5px;
+    height: 35vh;
+}
+.two-video-container {
+    display: flex;
+    width: 100%;
+}
+.sec-one-video iframe {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+footer {
+    /* height: 44vh; */
+    background-color: #efeff3;
+}
+.footer-container {
+    padding: 25px 100px;
+}
+.social-icon {
+    letter-spacing: 1.6px;
+    color: black;
+    display: flex;
+}
+.social-icon span {
+    background-repeat: no-repeat;
+    width: 25px;
+    display: inline-block;
+    height: 30px;
+}
+.social-text {
+    margin: 0px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+.align-centre a:hover {
+    color: orange;
+    transition: color 50ms ease-out 20ms
+}
+.align-centre {
+    justify-content: center;
+    display: grid;
+}
+.padding-60 {
+    padding: 60px;
+}
+.display-block {
+    display: block;
+}
+.made-with {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid black;
+}
+/* footer a {
+    display: block;
+    height: 3.75rem;
+    width: 5.0rem;
+} */
+.sec-one-div img {
+    margin: auto;
+    width: 25%;
+    text-align: center;
+    display: block;
+}
+.sec-one-div p {
+    text-align: center;
+    font-family: inherit;
+}
+.footer-text {
+    text-align: center !important;
+    font-size: 12px !important;
+}
+.container {
+    padding: 40px;
+    background: #419be0;
+  }
