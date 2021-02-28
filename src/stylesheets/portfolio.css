@@ -1,6 +1,9 @@
 #navbar-brand-img {
     width: 140px;
 }
+.container-fluid {
+    padding: 0px !important;
+}
 .navbar-link {
     margin-left: auto;
 }
@@ -130,7 +133,21 @@ footer {
     text-align: center !important;
     font-size: 12px !important;
 }
-.container {
-    padding: 40px;
-    background: #419be0;
-  }
+.slick-slider button {
+    height: 100vh;
+}
+.slick-slider .slick-prev {
+    padding-left: 100px;
+    z-index: 1;
+}
+.slick-slider .slick-next {
+    padding-right: 100px;
+    z-index: 1;
+}
+.slick-slider img {
+    height: 100vh;
+    width: 100%;
+}
+.slick-prev:before, .slick-next:before {
+    font-size: 35px !important;
+}
