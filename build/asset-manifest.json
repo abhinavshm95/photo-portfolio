@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/photo-portfolio/static/css/main.69bf5738.chunk.css",
+    "main.js": "/photo-portfolio/static/js/main.0e03394f.chunk.js",
+    "main.js.map": "/photo-portfolio/static/js/main.0e03394f.chunk.js.map",
+    "runtime-main.js": "/photo-portfolio/static/js/runtime-main.c3e3e294.js",
+    "runtime-main.js.map": "/photo-portfolio/static/js/runtime-main.c3e3e294.js.map",
+    "static/css/2.49bffbaf.chunk.css": "/photo-portfolio/static/css/2.49bffbaf.chunk.css",
+    "static/js/2.d2a17921.chunk.js": "/photo-portfolio/static/js/2.d2a17921.chunk.js",
+    "static/js/2.d2a17921.chunk.js.map": "/photo-portfolio/static/js/2.d2a17921.chunk.js.map",
+    "static/js/3.559371ce.chunk.js": "/photo-portfolio/static/js/3.559371ce.chunk.js",
+    "static/js/3.559371ce.chunk.js.map": "/photo-portfolio/static/js/3.559371ce.chunk.js.map",
+    "index.html": "/photo-portfolio/index.html",
+    "static/css/2.49bffbaf.chunk.css.map": "/photo-portfolio/static/css/2.49bffbaf.chunk.css.map",
+    "static/css/main.69bf5738.chunk.css.map": "/photo-portfolio/static/css/main.69bf5738.chunk.css.map",
+    "static/js/2.d2a17921.chunk.js.LICENSE.txt": "/photo-portfolio/static/js/2.d2a17921.chunk.js.LICENSE.txt",
+    "static/media/ban1.3c8eb307.jpg": "/photo-portfolio/static/media/ban1.3c8eb307.jpg",
+    "static/media/check.a3ed3f1e.jpeg": "/photo-portfolio/static/media/check.a3ed3f1e.jpeg",
+    "static/media/facebook-circular-logo.7f1edf03.svg": "/photo-portfolio/static/media/facebook-circular-logo.7f1edf03.svg",
+    "static/media/header2.9b0e1214.png": "/photo-portfolio/static/media/header2.9b0e1214.png",
+    "static/media/instagram.6ed2cb52.svg": "/photo-portfolio/static/media/instagram.6ed2cb52.svg",
+    "static/media/logo.476fe213.png": "/photo-portfolio/static/media/logo.476fe213.png",
+    "static/media/new_resize_logo.47d42b3a.png": "/photo-portfolio/static/media/new_resize_logo.47d42b3a.png",
+    "static/media/sample3.77af3165.png": "/photo-portfolio/static/media/sample3.77af3165.png",
+    "static/media/sample5.79465bf3.png": "/photo-portfolio/static/media/sample5.79465bf3.png",
+    "static/media/sample6.6db1a15f.png": "/photo-portfolio/static/media/sample6.6db1a15f.png",
+    "static/media/slick-theme.css": "/photo-portfolio/static/media/slick.c94f7671.ttf",
+    "static/media/whatsapp.d6f5f814.svg": "/photo-portfolio/static/media/whatsapp.d6f5f814.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3e3e294.js",
+    "static/css/2.49bffbaf.chunk.css",
+    "static/js/2.d2a17921.chunk.js",
+    "static/css/main.69bf5738.chunk.css",
+    "static/js/main.0e03394f.chunk.js"
+  ]
+}
