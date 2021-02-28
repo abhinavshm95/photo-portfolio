@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/photo-portfolio/static/css/main.1a405ab5.chunk.css",
-    "main.js": "/photo-portfolio/static/js/main.242f7525.chunk.js",
-    "main.js.map": "/photo-portfolio/static/js/main.242f7525.chunk.js.map",
+    "main.css": "/photo-portfolio/static/css/main.69bf5738.chunk.css",
+    "main.js": "/photo-portfolio/static/js/main.0e03394f.chunk.js",
+    "main.js.map": "/photo-portfolio/static/js/main.0e03394f.chunk.js.map",
     "runtime-main.js": "/photo-portfolio/static/js/runtime-main.c3e3e294.js",
     "runtime-main.js.map": "/photo-portfolio/static/js/runtime-main.c3e3e294.js.map",
     "static/css/2.49bffbaf.chunk.css": "/photo-portfolio/static/css/2.49bffbaf.chunk.css",
-    "static/js/2.610679ce.chunk.js": "/photo-portfolio/static/js/2.610679ce.chunk.js",
-    "static/js/2.610679ce.chunk.js.map": "/photo-portfolio/static/js/2.610679ce.chunk.js.map",
+    "static/js/2.d2a17921.chunk.js": "/photo-portfolio/static/js/2.d2a17921.chunk.js",
+    "static/js/2.d2a17921.chunk.js.map": "/photo-portfolio/static/js/2.d2a17921.chunk.js.map",
     "static/js/3.559371ce.chunk.js": "/photo-portfolio/static/js/3.559371ce.chunk.js",
     "static/js/3.559371ce.chunk.js.map": "/photo-portfolio/static/js/3.559371ce.chunk.js.map",
     "index.html": "/photo-portfolio/index.html",
     "static/css/2.49bffbaf.chunk.css.map": "/photo-portfolio/static/css/2.49bffbaf.chunk.css.map",
-    "static/css/main.1a405ab5.chunk.css.map": "/photo-portfolio/static/css/main.1a405ab5.chunk.css.map",
-    "static/js/2.610679ce.chunk.js.LICENSE.txt": "/photo-portfolio/static/js/2.610679ce.chunk.js.LICENSE.txt",
+    "static/css/main.69bf5738.chunk.css.map": "/photo-portfolio/static/css/main.69bf5738.chunk.css.map",
+    "static/js/2.d2a17921.chunk.js.LICENSE.txt": "/photo-portfolio/static/js/2.d2a17921.chunk.js.LICENSE.txt",
     "static/media/ban1.3c8eb307.jpg": "/photo-portfolio/static/media/ban1.3c8eb307.jpg",
     "static/media/check.a3ed3f1e.jpeg": "/photo-portfolio/static/media/check.a3ed3f1e.jpeg",
     "static/media/facebook-circular-logo.7f1edf03.svg": "/photo-portfolio/static/media/facebook-circular-logo.7f1edf03.svg",
@@ -30,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.c3e3e294.js",
     "static/css/2.49bffbaf.chunk.css",
-    "static/js/2.610679ce.chunk.js",
-    "static/css/main.1a405ab5.chunk.css",
-    "static/js/main.242f7525.chunk.js"
+    "static/js/2.d2a17921.chunk.js",
+    "static/css/main.69bf5738.chunk.css",
+    "static/js/main.0e03394f.chunk.js"
   ]
 }
