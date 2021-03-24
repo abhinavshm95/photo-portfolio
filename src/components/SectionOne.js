@@ -1,8 +1,11 @@
 import React from 'react'
 import header2 from "../asset/Image/header2.png";
 import check from "../asset/Image/check.jpeg";
+import img1 from "../asset/Image/resize2.jpg";
 import { Parallax, Background } from "react-parallax";
 import ImageSlider from './ImageSlider';
+import { Container, Row } from 'react-bootstrap';
+import VideoContainer from './VideoContainer';
 
 export default function SectionOne() {
     return (
@@ -25,27 +28,19 @@ export default function SectionOne() {
                             We are wanderers, explorers of light, driven by a strong desire to capture fleeting moments onto frames and stitching them together to create a visual symphony which is both organic and timeless. We do not follow trends and have our own unique non-linear approach of presenting stories. Our wedding films are carefully crafted to blend traditional with modern, combining stunning visuals with creative storytelling.
                         </p>
                     </div>
-                    <div className="sec-one-video">
-                        <div className="two-video-container">
-                            <div className="iframe-div">
-                                <iframe src="https://www.youtube.com/embed/hC8CH0Z3L54" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                            <div className="iframe-div">
-                                <iframe src="https://www.youtube.com/embed/hC8CH0Z3L54" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <div className="two-video-container">
-                            <div className="iframe-div">
-                                <iframe src="https://www.youtube.com/embed/hC8CH0Z3L54" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                            <div className="iframe-div">
-                                <iframe src="https://www.youtube.com/embed/hC8CH0Z3L54" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
+                <VideoContainer></VideoContainer>
                 </div>
             </div>
+            <Container fluid className="d-flex">
+                <Row className="recent-photograph">
+                    RECENT PHOTOGRAPHS
+                </Row>
+            </Container>
             <ImageSlider></ImageSlider>
+            <Parallax bgImage={img1} strength={400}>
+                    <div style={{ height: '100vh' }}>
+                    </div>
+                </Parallax>
         </section>
     )
 }

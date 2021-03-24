@@ -3,10 +3,10 @@ import Root from './components/Root';
 
 function App() {
   return (<>
-    {/* <Container fluid> */}
-     <Root>
-       </Root>
-    {/* </Container> */}
+    <Container fluid>
+      <Root>
+      </Root>
+    </Container>
   </>
   );
 }

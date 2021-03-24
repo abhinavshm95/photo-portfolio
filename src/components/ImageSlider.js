@@ -1,16 +1,19 @@
 import React from 'react'
 import Slider from 'react-slick';
-import img2 from "../asset/Image/sample6.png";
-import logo from '../asset/Image/new_resize_logo.png';
-import img4 from "../asset/Image/ban1.jpg";
-import img3 from "../asset/Image/sample3.png";
+import img6 from "../asset/Image/resize6.jpg";
+import img4 from '../asset/Image/resize4.jpg';
+import img1 from "../asset/Image/resize1.jpg";
+import img3 from "../asset/Image/resize3.jpg";
 import { Container } from 'react-bootstrap';
 
 export default function ImageSlider() {
     const settings = {
-        // dots: true
+        // fade: true,
+        // adaptiveHeight: true,
+        // autoplaySpeed: 2000,
+        // dots: true,
         // infinite: true,
-        // speed: 500,
+        speed: 500,
         // slidesToShow: 1,
         // slidesToScroll: 1,
         // arrows: true
@@ -19,16 +22,16 @@ export default function ImageSlider() {
         <Container fluid>
             <Slider {...settings}>
             <div>
-                <img src={img2}></img>
+                <img src={img1}></img>
             </div>
             <div>
             <img src={img4}></img>
             </div>
             <div>
-            <img src="http://placekitten.com/g/800/400"></img>
+            <img src={img3}></img>
             </div>
             <div>
-            <img src="http://placekitten.com/g/800/400"></img>
+            <img src={img6}></img>
             </div>
         </Slider>
         </Container>

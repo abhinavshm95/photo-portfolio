@@ -30,7 +30,7 @@ export default function Footer() {
                         </a>
                     </Col>
                     <Col sm={4}>
-                        <div style={{ textAlign: 'right' }}>
+                        <div style={{ textAlign: 'right', fontFamily: 'Kalam', fontSize: '18px' }}>
                             happyending@gmail.com <br /> +91-9948563748
                         </div>
                     </Col>
