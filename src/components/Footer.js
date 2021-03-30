@@ -10,12 +10,12 @@ export default function Footer() {
         <footer>
             <Container fluid className="footer-container">
                 <Row>
-                    <Col sm={4}>
+                    <Col md={4}>
                         <div>
                             <img src={logo}></img>
                         </div>
                     </Col>
-                    <Col sm={4} className="align-centre" >
+                    <Col md={4} className="align-centre" >
                         <a className="social-icon" href="www.fastlap.com" target="_blank">
                             <span style={{ backgroundImage: `url('${fb}')` }}></span>
                             <p className="social-text">Facebook</p>
@@ -29,7 +29,7 @@ export default function Footer() {
                             <p className="social-text">Instagram</p>
                         </a>
                     </Col>
-                    <Col sm={4}>
+                    <Col md={4}>
                         <div style={{ textAlign: 'right', fontFamily: 'Kalam', fontSize: '18px' }}>
                             happyending@gmail.com <br /> +91-9948563748
                         </div>

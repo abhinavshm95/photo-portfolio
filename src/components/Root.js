@@ -48,6 +48,11 @@ export default class Root extends Component {
                         ></Route>
                         <Route
                             exact
+                            path="/photo-portfolio"
+                            render={props => <SectionOne />}
+                        ></Route>
+                        <Route
+                            exact
                             path="/photography"
                             render={props => <Photography />}
                         ></Route>
