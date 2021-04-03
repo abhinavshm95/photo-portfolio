@@ -11,9 +11,8 @@ export default function SectionOne() {
     return (
         <section>
             <Parallax bgImage={check} strength={300}>
-                    <div style={{ height: '100vh' }}>
-                    </div>
-                </Parallax>
+                <img src={check} style={{ visibility: "hidden", width: "100%" }} />
+            </Parallax>
             {/* <div className="main-background-video">
                 <div>
                     <div class="image" style={{ backgroundImage: `url(${check})` }}>
@@ -37,10 +36,9 @@ export default function SectionOne() {
                 </Row>
             </Container>
             <ImageSlider></ImageSlider>
-            <Parallax bgImage={img1} strength={400}>
-                    <div style={{ height: '100vh' }}>
-                    </div>
-                </Parallax>
+            <Parallax bgImage={img1} strength={300}>
+            <img src={img1} style={{ visibility: "hidden", width: "100%" }} />
+            </Parallax>
         </section>
     )
 }

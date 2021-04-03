@@ -1,7 +1,7 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import logo from '../asset/Image/logo.png';
+import logo from '../asset/Image/new_resize_logo.png'
 
 export default function Navigationbar() {
     return (<>
@@ -14,8 +14,6 @@ export default function Navigationbar() {
                     <NavLink exact to="/photography" className="nav-link">Photography</NavLink>
                     <NavLink exact to="/films" className="nav-link">Films</NavLink>
                     <NavLink exact to="/contactus" className="nav-link">Contact Us</NavLink>
-                    {/* <Nav.Link href="#fils">FILMS</Nav.Link>
-                    <Nav.Link href="#contact">CONTACT US</Nav.Link> */}
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

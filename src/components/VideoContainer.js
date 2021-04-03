@@ -4,7 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 export default function VideoContainer() {
     return (<>
         {/* <div className="dual-video-container"> */}
-        <Container>
+        <Container style={{ maxWidth: "none" }}>
             <Row className="margin-t-b-10">
                 <Col sm={6}>
                     <div className="video-container">

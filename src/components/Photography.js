@@ -25,7 +25,10 @@ export default function Photography() {
              <h3>Photography</h3>
          </div> */}
         {/* <Parallax bgImage={check} strength={300} style={{ height: '100vh', display: 'flex' }}> */}
-        <Parallax blur={{ min: -15, max: 15 }} bgImage={check} strength={300} className="letter-spacing-12">Photography</Parallax>
+        <Parallax blur={{ min: -15, max: 15 }} bgImage={check} strength={300} className="letter-spacing-12">
+            Photography
+            <img src={check} style={{ visibility: "hidden", width: "100%" }} />
+        </Parallax>
         <div className="photograph-image-show">
             <img src={photos[0].src}></img>
             <img src={photos[1].src}></img>

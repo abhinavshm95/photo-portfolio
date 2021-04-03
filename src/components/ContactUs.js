@@ -7,7 +7,10 @@ import tileImg2 from "../asset/Image/resize9.jpg";
 
 export default function ContactUs() {
     return (<>
-        <Parallax blur={{ min: -15, max: 15 }} bgImage={check} strength={300} className="letter-spacing-12">Contact Us</Parallax>
+        <Parallax blur={{ min: -15, max: 15 }} bgImage={check} strength={300} className="letter-spacing-12">
+            Contact Us
+            <img src={check} style={{ visibility: "hidden", width: "100%" }} />
+            </Parallax>
         <Container fluid>
             <Row className="margin-0-padding-0">
                 <Col md={6} className="margin-0-padding-0">

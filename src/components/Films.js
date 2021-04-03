@@ -7,7 +7,10 @@ import VideoContainer from './VideoContainer';
 export default function Films() {
     return (
         <div>
-            <Parallax bgImage={pic1} strength={300} className="letter-spacing-12">Films</Parallax>
+            <Parallax bgImage={pic1} strength={300} className="letter-spacing-12">
+                Films
+            <img src={pic1} style={{ visibility: "hidden", width: "100%" }} />
+            </Parallax>
             <VideoContainer></VideoContainer>
         </div>
     )

@@ -120,8 +120,8 @@ footer {
     justify-content: center;
     display: grid;
 }
-.padding-60 {
-    padding: 60px;
+.padding-20 {
+    padding: 20px;
 }
 .display-block {
     display: block;
@@ -138,7 +138,7 @@ footer {
 } */
 .sec-one-div img {
     margin: auto;
-    width: 25%;
+    width: 35%;
     text-align: center;
     display: block;
 }
@@ -177,7 +177,7 @@ footer {
 }
 .react-parallax-content {
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
     font-size: 80px;
     margin-left: 30px;
     color: white;
@@ -224,13 +224,59 @@ footer {
     text-align: center;
     color: blanchedalmond;
 }
-@media only screen and (max-width: 576px) {
-    .video-container {
-      margin: 10px 0px;
-    }
-  }
+.contact-number { 
+    text-align: right;
+    font-family: 'Kalam'; 
+    font-size: 18px;
+}
 @media only screen and (max-width: 767px) {
     .media-padding-top-100 {
         padding: 100px 50px;
     }
+    .sec-one-div img {
+        width: 65%;
+    }
+    .react-parallax-bgimage {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .sectionOne-container {
+        padding: 20px;
+    }
+    .recent-photograph {
+        font-size: 40px;
+    }
+    #navbar-brand-img {
+        width: 90px;
+    }
+    .nav-cll {
+        padding: 15px;
+    }
+    .slick-slider .slick-next {
+        padding-right: 60px;
+    }
+    .slick-prev:before, .slick-next:before {
+        font-size: 25px !important;
+    }
+    .slick-slider .slick-prev {
+        padding-left: 60px;
+    }
+    .footer-container {
+        padding: 25px !important;
+    }
+    .footer-container > div > div {
+        text-align: center !important;
+        padding-bottom: 20px;
+    }
 }
+@media only screen and (max-width: 576px) {
+    .video-container {
+      margin: 10px 0px;
+    }
+    .recent-photograph {
+        font-size: 30px;
+    }
+    #navbar-brand-img {
+        width: 75px;
+    }
+  }

@@ -30,21 +30,21 @@ export default function Footer() {
                         </a>
                     </Col>
                     <Col md={4}>
-                        <div style={{ textAlign: 'right', fontFamily: 'Kalam', fontSize: '18px' }}>
+                        <div className="contact-number">
                             happyending@gmail.com <br /> +91-9948563748
                         </div>
                     </Col>
                 </Row>
                 <Row>
-                    <Col className="padding-60">
+                    <Col className="padding-20">
                         <div className="footer-text" >
-                        All Images and Videos Are Copyrighted. Tags: Wedding Films, Wedding Cinema, Fine-Art Cinematography, Cinematic Films, Wedding videos, Wedding Cinematographers in Mumbai, Delhi, Bangalore, Goa, London, Wedding Photography, Destination Wedding Photographer, Best Wedding Photographer
+                            All Images and Videos Are Copyrighted. Tags: Wedding Films, Wedding Cinema, Fine-Art Cinematography, Cinematic Films, Wedding videos, Wedding Cinematographers in Mumbai, Delhi, Bangalore, Goa, London, Wedding Photography, Destination Wedding Photographer, Best Wedding Photographer
                         </div>
                     </Col>
                 </Row>
             </Container>
-                <div className="made-with" >
-                        Made with 💙 in INDIA
+            <div className="made-with" >
+                Made with 💙 in INDIA
                 </div>
         </footer>
     )
