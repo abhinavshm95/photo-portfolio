@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/photo-portfolio/static/css/main.4ab401be.chunk.css",
-    "main.js": "/photo-portfolio/static/js/main.755261db.chunk.js",
-    "main.js.map": "/photo-portfolio/static/js/main.755261db.chunk.js.map",
+    "main.js": "/photo-portfolio/static/js/main.e4a710bc.chunk.js",
+    "main.js.map": "/photo-portfolio/static/js/main.e4a710bc.chunk.js.map",
     "runtime-main.js": "/photo-portfolio/static/js/runtime-main.2720d50d.js",
     "runtime-main.js.map": "/photo-portfolio/static/js/runtime-main.2720d50d.js.map",
     "static/css/2.c325c836.chunk.css": "/photo-portfolio/static/css/2.c325c836.chunk.css",
@@ -19,6 +19,7 @@
     "static/media/header2.9b0e1214.png": "/photo-portfolio/static/media/header2.9b0e1214.png",
     "static/media/instagram.6ed2cb52.svg": "/photo-portfolio/static/media/instagram.6ed2cb52.svg",
     "static/media/new_resize_logo.47d42b3a.png": "/photo-portfolio/static/media/new_resize_logo.47d42b3a.png",
+    "static/media/new_white_logo.1d58edab.png": "/photo-portfolio/static/media/new_white_logo.1d58edab.png",
     "static/media/resize1.83846407.jpg": "/photo-portfolio/static/media/resize1.83846407.jpg",
     "static/media/resize2.b35076dd.jpg": "/photo-portfolio/static/media/resize2.b35076dd.jpg",
     "static/media/resize3.6d9d644a.jpg": "/photo-portfolio/static/media/resize3.6d9d644a.jpg",
@@ -40,6 +41,6 @@
     "static/css/2.c325c836.chunk.css",
     "static/js/2.3f9894f0.chunk.js",
     "static/css/main.4ab401be.chunk.css",
-    "static/js/main.755261db.chunk.js"
+    "static/js/main.e4a710bc.chunk.js"
   ]
 }
