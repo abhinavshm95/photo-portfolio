@@ -1,6 +1,6 @@
 import React from 'react'
 import header2 from "../asset/Image/header2.png";
-import check from "../asset/Image/check.jpeg";
+import check from "../asset/Image/resize1.jpg";
 import img1 from "../asset/Image/resize2.jpg";
 import { Parallax, Background } from "react-parallax";
 import ImageSlider from './ImageSlider';

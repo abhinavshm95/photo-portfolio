@@ -6,7 +6,7 @@ import logo from '../asset/Image/new_resize_logo.png'
 export default function Navigationbar() {
     return (<>
         <Navbar expand="lg" className="nav-cll">
-            <Navbar.Brand href="#home"><img id="navbar-brand-img" src={logo} alt="Logo" /></Navbar.Brand>
+            <Navbar.Brand href="/"><img id="navbar-brand-img" src={logo} alt="Logo" /></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="navbar-link">
