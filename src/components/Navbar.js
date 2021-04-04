@@ -1,7 +1,7 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import logo from '../asset/Image/new_resize_logo.png'
+import logo from '../asset/Image/new_white_logo.png'
 
 export default function Navigationbar() {
     return (<>
