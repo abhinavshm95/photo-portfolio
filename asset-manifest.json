@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/photo-portfolio/static/css/main.4ab401be.chunk.css",
-    "main.js": "/photo-portfolio/static/js/main.9368f708.chunk.js",
-    "main.js.map": "/photo-portfolio/static/js/main.9368f708.chunk.js.map",
+    "main.js": "/photo-portfolio/static/js/main.755261db.chunk.js",
+    "main.js.map": "/photo-portfolio/static/js/main.755261db.chunk.js.map",
     "runtime-main.js": "/photo-portfolio/static/js/runtime-main.2720d50d.js",
     "runtime-main.js.map": "/photo-portfolio/static/js/runtime-main.2720d50d.js.map",
     "static/css/2.c325c836.chunk.css": "/photo-portfolio/static/css/2.c325c836.chunk.css",
@@ -28,6 +28,7 @@
     "static/media/resize7.650eabda.jpg": "/photo-portfolio/static/media/resize7.650eabda.jpg",
     "static/media/resize8.2ee14191.jpg": "/photo-portfolio/static/media/resize8.2ee14191.jpg",
     "static/media/resize9.539e7e82.jpg": "/photo-portfolio/static/media/resize9.539e7e82.jpg",
+    "static/media/resize_main-page.5171b1bb.jpg": "/photo-portfolio/static/media/resize_main-page.5171b1bb.jpg",
     "static/media/sample5.79465bf3.png": "/photo-portfolio/static/media/sample5.79465bf3.png",
     "static/media/sample6.6db1a15f.png": "/photo-portfolio/static/media/sample6.6db1a15f.png",
     "static/media/slick-theme.css": "/photo-portfolio/static/media/slick.c94f7671.ttf",
@@ -39,6 +40,6 @@
     "static/css/2.c325c836.chunk.css",
     "static/js/2.3f9894f0.chunk.js",
     "static/css/main.4ab401be.chunk.css",
-    "static/js/main.9368f708.chunk.js"
+    "static/js/main.755261db.chunk.js"
   ]
 }
