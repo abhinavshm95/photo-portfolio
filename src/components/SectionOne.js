@@ -36,6 +36,12 @@ export default function SectionOne() {
                 </Row>
             </Container>
             <ImageSlider></ImageSlider>
+            <Container fluid className="d-flex">
+                <Row className="recent-photograph">
+                    RECENT PHOTOGRAPHS
+                </Row>
+            </Container>
+            <ImageSlider></ImageSlider>
             <Parallax bgImage={img1} strength={300}>
             <img src={img1} style={{ visibility: "hidden", width: "100%" }} />
             </Parallax>
