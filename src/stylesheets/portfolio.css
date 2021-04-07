@@ -171,9 +171,10 @@ footer {
 }
 .recent-photograph {
     margin: 75px auto;
-    font-size: 60px;
     color: orange;
-    font-family: 'Kalam';
+    font-size: 90px;
+    letter-spacing: 15px;
+    font-family: 'Kaushan Script';
 }
 .react-parallax-content {
     align-items: center;
@@ -228,6 +229,18 @@ footer {
     text-align: right;
     font-family: 'Kalam'; 
     font-size: 18px;
+}
+.contact-us-banner {
+    background: url('../asset/Image/resize1.jpg');
+    font-family: 'Kaushan Script';
+    font-size: 60px;
+    display: flex;
+    padding: 60px 0px !important;
+    background-position: center;
+}
+.contact-us-banner > div {
+    margin: auto;
+    color: white;
 }
 @media only screen and (max-width: 767px) {
     .media-padding-top-100 {

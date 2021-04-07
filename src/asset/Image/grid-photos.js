@@ -7,31 +7,29 @@ import img6 from "./resize6.jpg";
 import img7 from "./resize7.jpg";
 export const photos = [
     {
-    //   src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
       src: img1,
       width: 4,
-      height: 4,
-      sizes: "width: 100%",
+      height: 3
     },
     {
       src: img2,
       width: 4,
-      height: 4
+      height: 3
     },
     {
       src: img3,
       width: 4,
-      height: 4
+      height: 3
     },
     {
       src: img4,
       width: 4,
-      height: 4
+      height: 3
     },
     {
       src: img5,
       width: 4,
-      height: 4
+      height: 3
     },
     {
       src: img6,
@@ -41,7 +39,7 @@ export const photos = [
     {
       src: img7,
       width: 4,
-      height: 4
+      height: 3
     }
     // {
     //   src: "https://source.unsplash.com/PpOHJezOalU/800x599",
