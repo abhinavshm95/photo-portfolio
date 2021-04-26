@@ -242,6 +242,21 @@ footer {
     margin: auto;
     color: white;
 }
+.react-photo-gallery--gallery {
+    margin: 0px 70px 70px 70px!important;
+}
+.photography-tab-quote {
+    margin: 55px auto;
+    color: orange;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-family: 'Kaushan Script';
+}
+.text-img {
+    height: 100%;
+    margin: auto;
+    padding: 0px 10px;
+}
 @media only screen and (max-width: 767px) {
     .media-padding-top-100 {
         padding: 100px 50px;

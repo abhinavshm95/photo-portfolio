@@ -2,38 +2,21 @@ import React, { useState, useCallback } from "react";
 import header2 from "../asset/Image/header2.png";
 import check from "../asset/Image/resize_main-page.jpg";
 import img1 from "../asset/Image/resize2.jpg";
+import leftImg from "../asset/Image/left.png";
+import rightImg from "../asset/Image/right.png";
 import { Parallax, Background } from "react-parallax";
 import ImageSlider from './ImageSlider';
 import { Container, Row } from 'react-bootstrap';
 import VideoContainer from './VideoContainer';
-import Gallery from "react-photo-gallery";
-import Carousel, { Modal, ModalGateway } from "react-images";
-import { photos } from "../asset/Image/grid-photos";
+import PhotoGrid from "./PhotoGrid";
+import { wedPhotos } from "../asset/Image/grid-photos";
 
 export default function SectionOne() {
-    const [currentImage, setCurrentImage] = useState(0);
-    const [viewerIsOpen, setViewerIsOpen] = useState(false);
-
-    const openLightbox = useCallback((event, { photo, index }) => {
-        setCurrentImage(index);
-        setViewerIsOpen(true);
-    }, []);
-
-    const closeLightbox = () => {
-        setCurrentImage(0);
-        setViewerIsOpen(false);
-    };
     return (
         <section>
             <Parallax bgImage={check} strength={300}>
                 <img src={check} style={{ visibility: "hidden", width: "100%" }} />
             </Parallax>
-            {/* <div className="main-background-video">
-                <div>
-                    <div class="image" style={{ backgroundImage: `url(${check})` }}>
-                    </div>
-                </div>
-            </div> */}
             <div className="sectionOne">
                 <div className="sectionOne-container">
                     <div className="sec-one-div">
@@ -47,7 +30,9 @@ export default function SectionOne() {
             </div>
             <Container fluid className="d-flex">
                 <Row className="recent-photograph">
-                    Recent Photographs
+                <img src={leftImg}/>
+                    Best of Wedding
+                <img src={rightImg}/>
                 </Row>
             </Container>
             <ImageSlider></ImageSlider>
@@ -57,27 +42,13 @@ export default function SectionOne() {
                 </Row>
             </Container>
             <ImageSlider></ImageSlider>
-            {/* <Parallax bgImage={img1} strength={300}>
-                <img src={img1} style={{ visibility: "hidden", width: "100%" }} />
-            </Parallax> */}
-            <Gallery photos={photos} direction={"row"} onClick={openLightbox}/>
-            <ModalGateway>
-                {viewerIsOpen ? (
-                    <Modal onClose={closeLightbox}>
-                        <Carousel
-                            currentIndex={currentImage}
-                            views={photos.map(x => ({
-                                ...x,
-                                srcset: x.srcSet,
-                                caption: x.title
-                            }))}
-                        />
-                    </Modal>
-                ) : null}
-            </ModalGateway>
+            <PhotoGrid imageArr={wedPhotos}></PhotoGrid>
             <Container fluid className="contact-us-banner">
                 <Row>
+                <img src={leftImg} className="text-img"/>
                     We don’t trust words. We trust pictures.
+                <img src={rightImg} className="text-img"/>
+                
                 </Row>
             </Container>
         </section>
