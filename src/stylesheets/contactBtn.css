@@ -1,0 +1,20 @@
+.contact-us-wrapper{
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: 'futura';
+  text-decoration: none;
+  color: white;
+  border: 2px solid orange;
+  border-radius: 30px;
+  padding: 10px;
+  letter-spacing: 2px;
+  transition: all .6s;
+  background-color: transparent;
+}
+
+.contact-us-wrapper:hover{
+  background-color: darkorange;
+  letter-spacing: 5px;
+  color: white;
+  text-decoration: none;
+}

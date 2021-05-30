@@ -3,6 +3,8 @@ import Navigationbar from './Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-image-lightbox/style.css'; // This only needs to be imported once in your app
 import "../stylesheets/portfolio.css";
+import "../stylesheets/map.css";
+import "../stylesheets/contactBtn.css";
 import img1 from "../asset/Image/resize2.jpg";
 import img3 from "../asset/Image/sample5.png";
 import img4 from "../asset/Image/ban1.jpg";

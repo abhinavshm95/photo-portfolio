@@ -14,6 +14,9 @@
 .letter-spacing-12 {
     letter-spacing: 10px;
 }
+.margin-l-20 {
+    margin-left: 20px !important;
+}
 #navbar-brand-img {
     width: 140px;
 }
@@ -71,7 +74,7 @@
     font-family: unset;
 }
 .sectionOne-container {
-    padding: 100px;
+    padding: 70px;
     height: 100%;
 }
 /* .iframe-div {
@@ -172,13 +175,13 @@ footer {
 .recent-photograph {
     margin: 75px auto;
     color: orange;
-    font-size: 90px;
-    letter-spacing: 15px;
-    font-family: 'Kaushan Script';
+    font-weight: bolder;
+    font-size: 50px;
+    letter-spacing: 10px;
+    font-family: 'futura';
 }
 .react-parallax-content {
     align-items: center;
-    /* height: 100vh; */
     font-size: 80px;
     margin-left: 30px;
     color: white;
@@ -234,12 +237,12 @@ footer {
     background: url('../asset/Image/resize1.jpg');
     font-family: 'Kaushan Script';
     font-size: 60px;
-    display: flex;
     padding: 60px 0px !important;
     background-position: center;
 }
 .contact-us-banner > div {
     margin: auto;
+    justify-content: center;
     color: white;
 }
 .react-photo-gallery--gallery {
@@ -254,8 +257,36 @@ footer {
 }
 .text-img {
     height: 100%;
-    margin: auto;
+    margin: auto 0px;
     padding: 0px 10px;
+}
+.padding-l-r-t-b-70 {
+    padding: 0px 70px 70px 70px;
+}
+.email-form-submit {
+    display: flex;
+    max-width: 300px;
+    margin: auto;
+}
+.btn-primary:hover {
+    background-color: #FF8C00;
+    border-color: #FF8C00;
+    transition: 500ms;
+}
+.btn-primary {
+    transition: 500ms;
+    color: #fff;
+    background-color: orange;
+    border-color: orange;
+    height: 38px !important;
+}
+.map-col > div:nth-child(2){
+    max-height: 350px;
+}
+.contact-form-title {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
 }
 @media only screen and (max-width: 767px) {
     .media-padding-top-100 {

@@ -13,10 +13,10 @@ export default function Photography() {
             <img src={check} style={{ visibility: "hidden", width: "100%" }} />
         </Parallax>
         <Container fluid className="d-flex">
-                <Row className="photography-tab-quote">
-                    You don’t take a photograph, you make it.
+            <Row className="photography-tab-quote">
+                You don’t take a photograph, you make it.
                 </Row>
-            </Container>
+        </Container>
         <PhotoGrid imageArr={preWedPhotos}></PhotoGrid>
     </>
     )

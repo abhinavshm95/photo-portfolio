@@ -6,7 +6,7 @@ import leftImg from "../asset/Image/left.png";
 import rightImg from "../asset/Image/right.png";
 import { Parallax, Background } from "react-parallax";
 import ImageSlider from './ImageSlider';
-import { Container, Row } from 'react-bootstrap';
+import { Container, Form, Row, Button } from 'react-bootstrap';
 import VideoContainer from './VideoContainer';
 import PhotoGrid from "./PhotoGrid";
 import { wedPhotos } from "../asset/Image/grid-photos";
@@ -22,34 +22,46 @@ export default function SectionOne() {
                     <div className="sec-one-div">
                         <img src={header2}></img>
                         <p>
-                            We are wanderers, explorers of light, driven by a strong desire to capture fleeting moments onto frames and stitching them together to create a visual symphony which is both organic and timeless. We do not follow trends and have our own unique non-linear approach of presenting stories. Our wedding films are carefully crafted to blend traditional with modern, combining stunning visuals with creative storytelling.
+                            {/* We are wanderers, explorers of light, driven by a strong desire to capture fleeting moments onto frames and stitching them together to create a visual symphony which is both organic and timeless. We do not follow trends and have our own unique non-linear approach of presenting stories. Our wedding films are carefully crafted to blend traditional with modern, combining stunning visuals with creative storytelling. */}
+                            Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever… It remembers little things, long after you have forgotten everything.
                         </p>
                     </div>
-                <VideoContainer></VideoContainer>
+                    <VideoContainer></VideoContainer>
                 </div>
             </div>
             <Container fluid className="d-flex">
                 <Row className="recent-photograph">
-                <img src={leftImg}/>
-                    Best of Wedding
-                <img src={rightImg}/>
+                    {/* <img src={leftImg} /> */}
+                    Pre Weddings
+                {/* <img src={rightImg} /> */}
                 </Row>
             </Container>
-            <ImageSlider></ImageSlider>
+            <PhotoGrid imageArr={wedPhotos}></PhotoGrid>
+            {/* <ImageSlider></ImageSlider> */}
             <Container fluid className="d-flex">
                 <Row className="recent-photograph">
-                    Pre Wedding
+                    Wedding Photography
                 </Row>
             </Container>
-            <ImageSlider></ImageSlider>
+            {/* <ImageSlider></ImageSlider> */}
             <PhotoGrid imageArr={wedPhotos}></PhotoGrid>
             <Container fluid className="contact-us-banner">
                 <Row>
-                <img src={leftImg} className="text-img"/>
+                    <img src={leftImg} className="text-img" />
                     We don’t trust words. We trust pictures.
-                <img src={rightImg} className="text-img"/>
-                
+                <img src={rightImg} className="text-img" />
                 </Row>
+                <Row>
+                    <a href="/contactus" className="contact-us-wrapper">Contact Us!</a>
+                </Row>
+                {/* <Form className="email-form-submit" >
+                        <Form.Group controlId="formBasicEmail">
+                            <Form.Control type="email" placeholder="Enter email" />
+                        </Form.Group>
+                        <Button className="margin-l-20" variant="primary" type="submit">
+                            Submit
+                        </Button>
+                </Form> */}
             </Container>
         </section>
     )
