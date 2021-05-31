@@ -174,10 +174,9 @@ footer {
 }
 .recent-photograph {
     margin: 75px auto;
-    color: orange;
+    color: #5a5a5a;
     font-weight: bolder;
     font-size: 50px;
-    letter-spacing: 10px;
     font-family: 'futura';
 }
 .react-parallax-content {
