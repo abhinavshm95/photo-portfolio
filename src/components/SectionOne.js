@@ -12,6 +12,9 @@ import { Container, Form, Row, Button, Col } from 'react-bootstrap';
 import VideoContainer from './VideoContainer';
 import PhotoGrid from "./PhotoGrid";
 import { wedPhotos } from "../asset/Image/grid-photos";
+import parallaxGif1 from '../asset/gif/Sequence1.gif';
+// import parallaxGif2 from '../asset/gif/Sequence2.gif';
+// import parallaxGif3 from '../asset/gif/Sequence3.gif';
 
 export default function SectionOne() {
     return (
@@ -72,8 +75,8 @@ export default function SectionOne() {
             </Container>
             <PhotoGrid imageArr={wedPhotos}></PhotoGrid>
             {/* <ImageSlider></ImageSlider> */}
-            <Parallax bgImage={check} strength={300}>
-                <img src={check} style={{ visibility: "hidden", width: "100%" }} />
+            <Parallax bgImage={parallaxGif1} strength={300}>
+                <img src={parallaxGif1} style={{ visibility: "hidden", width: "100%" }} />
             </Parallax>
             <Container fluid className="d-flex">
                 <Row className="recent-photograph">

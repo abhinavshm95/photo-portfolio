@@ -24,6 +24,7 @@ import preWebImg15 from "./pre-wedding/3I2A8863_resize.jpg";
 import preWebImg16 from "./pre-wedding/3I2A8911_resize.jpg";
 import preWebImg17 from "./pre-wedding/3I2A8936_resize.jpg";
 import preWebImg18 from "./pre-wedding/3I2A8999_resize.jpg";
+import preWebImg19 from "./pre-wedding/3I2A9542_resize.jpg";
 
 const wedPhotos = [
   {
@@ -150,6 +151,11 @@ const preWedPhotos = [
   },
   {
     src: preWebImg18,
+    width: 4,
+    height: 3
+  },
+  {
+    src: preWebImg19,
     width: 4,
     height: 3
   }
