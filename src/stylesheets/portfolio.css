@@ -226,6 +226,7 @@ footer {
 }
 .contact-us-banner > div {
     margin: auto;
+    text-align: center;
     justify-content: center;
     color: white;
 }
@@ -272,14 +273,24 @@ footer {
     font-size: x-large;
     font-weight: bold;
 }
+.react-parallax-bgimage {
+    left: 50% !important;
+ }
 @media only screen and (max-width: 967px) {
-    .react-parallax-bgimage {
-       left: 20% !important;
+    .contact-us-banner > div {
+        font-size: 48px;
     }
 }
 @media only screen and (max-width: 767px) {
-    .react-parallax-bgimage {
-        left: unset !important;
+    .padding-l-r-t-b-70 {
+        /* padding: 0px 20px 20px 20px; */
+        padding: 0px;
+    }
+    .contact-us-banner > div {
+        font-size: 36px;
+    }
+    .hero-image .react-parallax-bgimage {
+        left: 0% !important;
      }
     .media-padding-top-100 {
         padding: 100px 50px;
@@ -287,7 +298,7 @@ footer {
     .sec-one-div img {
         width: 65%;
     }
-    .react-parallax-bgimage {
+    .hero-image .react-parallax-bgimage {
         height: auto !important;
     }
     .sectionOne-container {
@@ -323,10 +334,20 @@ footer {
     }
 }
 @media only screen and (max-width: 576px) {
+    .hero-image .react-parallax-bgimage {
+        left: -22% !important;
+    }
+    .contact-us-banner > div {
+        font-size: 25px;
+    }
+    .sectionOne-container {
+        padding: 10px;
+    }
     .video-container {
       margin: 10px 0px;
     }
     .recent-photograph {
+        margin: 40px auto;
         font-size: 30px;
     }
     #navbar-brand-img {
@@ -335,4 +356,18 @@ footer {
     .hero-backgroung-image {
         background-image: url('../asset/Image/pre-wedding/3I2A6366_resize.jpg') !important; 
     }
-  }
+}
+@media only screen and (max-width: 400px) {
+    .hero-image .react-parallax-bgimage {
+       left: -35% !important;
+    }
+    .recent-photograph {
+        font-size: 20px;
+    }
+    .media-padding-top-100 {
+        padding: 100px 0px;
+    }
+    .react-photo-gallery--gallery {
+        margin: 0px 10px 10px 10px!important;
+    }
+}

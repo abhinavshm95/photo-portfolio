@@ -20,6 +20,7 @@ export default function SectionOne() {
     return (
         <section>
             <Parallax
+                className="hero-image"
                 blur={{ min: -15, max: 15 }}
                 bgImage={check}
                 bgImageAlt="Hero Image"
@@ -73,9 +74,17 @@ export default function SectionOne() {
                 </Row>
             </Container>
             <PhotoGrid imageArr={wedPhotos}></PhotoGrid>
-            <Parallax bgImage={parallaxGif1} strength={300}>
-                <img src={parallaxGif1} style={{ visibility: "hidden", width: "100%" }} />
+            <Parallax
+                blur={{ min: -15, max: 15 }}
+                bgImage={parallaxGif1}
+                bgImageAlt="the dog"
+                strength={200}
+            >
+                <div style={{ height: '200px' }} />
             </Parallax>
+            {/* <Parallax bgImage={parallaxGif1} strength={300}>
+                <div style={{ height: '100vh' }} />
+            </Parallax> */}
             <Container fluid className="d-flex">
                 <Row className="recent-photograph">
                     Wedding Photography
@@ -84,9 +93,7 @@ export default function SectionOne() {
             <PhotoGrid imageArr={wedPhotos}></PhotoGrid>
             <Container fluid className="contact-us-banner">
                 <Row>
-                    <img src={leftImg} className="text-img" />
                     We don’t trust words. We trust pictures.
-                <img src={rightImg} className="text-img" />
                 </Row>
                 <Row>
                     <a href="/contactus" className="contact-us-wrapper">Contact Us!</a>

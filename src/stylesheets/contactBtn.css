@@ -10,6 +10,7 @@
   letter-spacing: 2px;
   transition: all .6s;
   background-color: transparent;
+  margin-top: 10px;
 }
 
 .contact-us-wrapper:hover{
