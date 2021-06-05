@@ -295,7 +295,7 @@ footer {
         width: 65%;
     }
     .react-parallax-bgimage {
-        width: 100% !important;
+        position: initial !important;
         height: auto !important;
     }
     .sectionOne-container {
@@ -339,5 +339,8 @@ footer {
     }
     #navbar-brand-img {
         width: 75px;
+    }
+    .hero-backgroung-image {
+        background-image: url('../asset/Image/pre-wedding/3I2A6366_resize.jpg') !important; 
     }
   }

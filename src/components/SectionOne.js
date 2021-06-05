@@ -19,15 +19,19 @@ import parallaxGif1 from '../asset/gif/Sequence1.gif';
 export default function SectionOne() {
     return (
         <section>
-            <Parallax bgImage={check} strength={300}>
-                <img src={check} style={{ visibility: "hidden", width: "100%" }} />
+            <Parallax
+                blur={{ min: -15, max: 15 }}
+                bgImage={check}
+                bgImageAlt="Hero Image"
+                strength={300}
+            >
+                <div style={{ height: '100vh' }} />
             </Parallax>
             <div className="sectionOne">
                 <div className="sectionOne-container">
                     <div className="sec-one-div">
                         <img src={header2}></img>
                         <p>
-                            {/* We are wanderers, explorers of light, driven by a strong desire to capture fleeting moments onto frames and stitching them together to create a visual symphony which is both organic and timeless. We do not follow trends and have our own unique non-linear approach of presenting stories. Our wedding films are carefully crafted to blend traditional with modern, combining stunning visuals with creative storytelling. */}
                             Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever… It remembers little things, long after you have forgotten everything.
                         </p>
                     </div>
@@ -37,7 +41,6 @@ export default function SectionOne() {
             <Container fluid>
             <Row className="margin-0-padding-0">
                 <Col md={6} className="margin-0-padding-0">
-                    {/* <img src={check}></img> */}
                     <div className="text-tile">
                         <div className="margin-auto media-padding-top-100">
                             <h2 className="text-tile-heading"><span>We focus on prompts for natural expressions, not poses.&nbsp;</span></h2>
@@ -55,11 +58,9 @@ export default function SectionOne() {
                     <img src={tileImg2} style={{ width: "100%" }}></img>
                 </Col>
                 <Col md={6} className="margin-0-padding-0">
-                    {/* <img src={check}></img> */}
                     <div className="text-tile">
                         <div className="margin-auto media-padding-top-100">
                             <h2 className="text-tile-heading"><span>Capturing an experience, not just another photograph.&nbsp;</span></h2>
-                            {/* <p className="text-tile-sub-heading">"Kiss like you&nbsp;<span>haven't&nbsp;</span><span>seen each other in years."</span></p> */}
                             <p className="text-tile-sub-heading">"Like getting together with old friends, we'll have plenty of laughs along the way."</p>
                         </div>
                     </div>
@@ -68,13 +69,10 @@ export default function SectionOne() {
         </Container>
             <Container fluid className="d-flex">
                 <Row className="recent-photograph">
-                    {/* <img src={leftImg} /> */}
                     Pre Weddings
-                {/* <img src={rightImg} /> */}
                 </Row>
             </Container>
             <PhotoGrid imageArr={wedPhotos}></PhotoGrid>
-            {/* <ImageSlider></ImageSlider> */}
             <Parallax bgImage={parallaxGif1} strength={300}>
                 <img src={parallaxGif1} style={{ visibility: "hidden", width: "100%" }} />
             </Parallax>
@@ -83,7 +81,6 @@ export default function SectionOne() {
                     Wedding Photography
                 </Row>
             </Container>
-            {/* <ImageSlider></ImageSlider> */}
             <PhotoGrid imageArr={wedPhotos}></PhotoGrid>
             <Container fluid className="contact-us-banner">
                 <Row>
@@ -94,14 +91,6 @@ export default function SectionOne() {
                 <Row>
                     <a href="/contactus" className="contact-us-wrapper">Contact Us!</a>
                 </Row>
-                {/* <Form className="email-form-submit" >
-                        <Form.Group controlId="formBasicEmail">
-                            <Form.Control type="email" placeholder="Enter email" />
-                        </Form.Group>
-                        <Button className="margin-l-20" variant="primary" type="submit">
-                            Submit
-                        </Button>
-                </Form> */}
             </Container>
         </section>
     )
