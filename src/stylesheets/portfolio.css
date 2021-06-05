@@ -277,7 +277,7 @@ footer {
     left: 50% !important;
 }
 .hero-image-photography > img {
-    bottom: 50%
+    top: -50%
 }
 @media only screen and (max-width: 967px) {
     .contact-us-banner > div {
