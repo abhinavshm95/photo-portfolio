@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/photo-portfolio/static/css/main.8f93a1b4.chunk.css",
-    "main.js": "/photo-portfolio/static/js/main.fad1ad70.chunk.js",
-    "main.js.map": "/photo-portfolio/static/js/main.fad1ad70.chunk.js.map",
-    "runtime-main.js": "/photo-portfolio/static/js/runtime-main.e432d2f3.js",
-    "runtime-main.js.map": "/photo-portfolio/static/js/runtime-main.e432d2f3.js.map",
+    "main.css": "/photo-portfolio/static/css/main.c963c170.chunk.css",
+    "main.js": "/photo-portfolio/static/js/main.5197706a.chunk.js",
+    "main.js.map": "/photo-portfolio/static/js/main.5197706a.chunk.js.map",
+    "runtime-main.js": "/photo-portfolio/static/js/runtime-main.ce3f7ea5.js",
+    "runtime-main.js.map": "/photo-portfolio/static/js/runtime-main.ce3f7ea5.js.map",
     "static/css/2.f514d108.chunk.css": "/photo-portfolio/static/css/2.f514d108.chunk.css",
-    "static/js/2.ec914b7c.chunk.js": "/photo-portfolio/static/js/2.ec914b7c.chunk.js",
-    "static/js/2.ec914b7c.chunk.js.map": "/photo-portfolio/static/js/2.ec914b7c.chunk.js.map",
-    "static/js/3.3af75662.chunk.js": "/photo-portfolio/static/js/3.3af75662.chunk.js",
-    "static/js/3.3af75662.chunk.js.map": "/photo-portfolio/static/js/3.3af75662.chunk.js.map",
+    "static/js/2.1b7b935e.chunk.js": "/photo-portfolio/static/js/2.1b7b935e.chunk.js",
+    "static/js/2.1b7b935e.chunk.js.map": "/photo-portfolio/static/js/2.1b7b935e.chunk.js.map",
+    "static/js/3.a4186685.chunk.js": "/photo-portfolio/static/js/3.a4186685.chunk.js",
+    "static/js/3.a4186685.chunk.js.map": "/photo-portfolio/static/js/3.a4186685.chunk.js.map",
     "index.html": "/photo-portfolio/index.html",
     "static/css/2.f514d108.chunk.css.map": "/photo-portfolio/static/css/2.f514d108.chunk.css.map",
-    "static/css/main.8f93a1b4.chunk.css.map": "/photo-portfolio/static/css/main.8f93a1b4.chunk.css.map",
-    "static/js/2.ec914b7c.chunk.js.LICENSE.txt": "/photo-portfolio/static/js/2.ec914b7c.chunk.js.LICENSE.txt",
+    "static/css/main.c963c170.chunk.css.map": "/photo-portfolio/static/css/main.c963c170.chunk.css.map",
+    "static/js/2.1b7b935e.chunk.js.LICENSE.txt": "/photo-portfolio/static/js/2.1b7b935e.chunk.js.LICENSE.txt",
+    "static/media/3I2A0252_resize.671fbf22.jpg": "/photo-portfolio/static/media/3I2A0252_resize.671fbf22.jpg",
     "static/media/3I2A1999_resize.c83d1b28.jpg": "/photo-portfolio/static/media/3I2A1999_resize.c83d1b28.jpg",
     "static/media/3I2A2095_resize.cd040e80.jpg": "/photo-portfolio/static/media/3I2A2095_resize.cd040e80.jpg",
     "static/media/3I2A4006_resize.ca7f7835.jpg": "/photo-portfolio/static/media/3I2A4006_resize.ca7f7835.jpg",
@@ -25,7 +26,7 @@
     "static/media/3I2A6334_resize.3668cf8f.jpg": "/photo-portfolio/static/media/3I2A6334_resize.3668cf8f.jpg",
     "static/media/3I2A6348_resize.4c04b5ac.jpg": "/photo-portfolio/static/media/3I2A6348_resize.4c04b5ac.jpg",
     "static/media/3I2A6349_resize.eff400e6.jpg": "/photo-portfolio/static/media/3I2A6349_resize.eff400e6.jpg",
-    "static/media/portfolio.css": "/photo-portfolio/static/media/resize1.83846407.jpg",
+    "static/media/3I2A6366_resize.fb59f975.jpg": "/photo-portfolio/static/media/3I2A6366_resize.fb59f975.jpg",
     "static/media/3I2A8596_resize.2044e0af.jpg": "/photo-portfolio/static/media/3I2A8596_resize.2044e0af.jpg",
     "static/media/3I2A8863_resize.2deae64f.jpg": "/photo-portfolio/static/media/3I2A8863_resize.2deae64f.jpg",
     "static/media/3I2A8911_resize.cf8a6d01.jpg": "/photo-portfolio/static/media/3I2A8911_resize.cf8a6d01.jpg",
@@ -39,6 +40,7 @@
     "static/media/instagram.6ed2cb52.svg": "/photo-portfolio/static/media/instagram.6ed2cb52.svg",
     "static/media/new_resize_logo.47d42b3a.png": "/photo-portfolio/static/media/new_resize_logo.47d42b3a.png",
     "static/media/new_white_logo.1d58edab.png": "/photo-portfolio/static/media/new_white_logo.1d58edab.png",
+    "static/media/portfolio.css": "/photo-portfolio/static/media/resize1.83846407.jpg",
     "static/media/resize2.b35076dd.jpg": "/photo-portfolio/static/media/resize2.b35076dd.jpg",
     "static/media/resize3.6d9d644a.jpg": "/photo-portfolio/static/media/resize3.6d9d644a.jpg",
     "static/media/resize4.fe3c11e2.jpg": "/photo-portfolio/static/media/resize4.fe3c11e2.jpg",
@@ -55,10 +57,10 @@
     "static/media/whatsapp.d6f5f814.svg": "/photo-portfolio/static/media/whatsapp.d6f5f814.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e432d2f3.js",
+    "static/js/runtime-main.ce3f7ea5.js",
     "static/css/2.f514d108.chunk.css",
-    "static/js/2.ec914b7c.chunk.js",
-    "static/css/main.8f93a1b4.chunk.css",
-    "static/js/main.fad1ad70.chunk.js"
+    "static/js/2.1b7b935e.chunk.js",
+    "static/css/main.c963c170.chunk.css",
+    "static/js/main.5197706a.chunk.js"
   ]
 }
