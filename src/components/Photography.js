@@ -8,9 +8,14 @@ import { Container, Row } from "react-bootstrap";
 export default function Photography() {
 
     return (<>
-        <Parallax blur={{ min: -15, max: 15 }} bgImage={check} strength={300} className="letter-spacing-12">
-            Photography
-            <img src={check} style={{ visibility: "hidden", width: "100%" }} />
+        <Parallax
+            className="hero-image-photography"
+            blur={{ min: -15, max: 15 }}
+            bgImage={check}
+            bgImageAlt="Hero Image"
+            strength={300}
+        >
+            <div style={{ height: '100vh' }} />
         </Parallax>
         <Container fluid className="d-flex">
             <Row className="photography-tab-quote">

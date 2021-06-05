@@ -12,7 +12,7 @@
     padding: 0px !important;
 }
 .letter-spacing-12 {
-    letter-spacing: 10px;
+    letter-spacing: 5px;
 }
 .margin-l-20 {
     margin-left: 20px !important;
@@ -237,8 +237,8 @@ footer {
     margin: 55px auto;
     color: orange;
     font-size: 40px;
-    letter-spacing: 5px;
     font-family: 'Kaushan Script';
+    text-align: center;
 }
 .text-img {
     height: 100%;
@@ -275,7 +275,10 @@ footer {
 }
 .react-parallax-bgimage {
     left: 50% !important;
- }
+}
+.hero-image-photography > img {
+    bottom: 50%
+}
 @media only screen and (max-width: 967px) {
     .contact-us-banner > div {
         font-size: 48px;
@@ -285,6 +288,9 @@ footer {
     .padding-l-r-t-b-70 {
         /* padding: 0px 20px 20px 20px; */
         padding: 0px;
+    }
+    .margin-b-767-40 {
+        margin-bottom: 40px;
     }
     .contact-us-banner > div {
         font-size: 36px;
@@ -332,8 +338,14 @@ footer {
     .contact-number {
         text-align: center;
     }
+    .react-parallax-content {
+        font-size: 50px;
+    }
 }
 @media only screen and (max-width: 576px) {
+    .photography-tab-quote {
+        font-size: 32px;
+    }
     .hero-image .react-parallax-bgimage {
         left: -22% !important;
     }
@@ -346,6 +358,9 @@ footer {
     .video-container {
       margin: 10px 0px;
     }
+    .react-photo-gallery--gallery {
+        margin: 0px 10px 10px 10px!important;
+    }
     .recent-photograph {
         margin: 40px auto;
         font-size: 30px;
@@ -353,11 +368,14 @@ footer {
     #navbar-brand-img {
         width: 75px;
     }
-    .hero-backgroung-image {
-        background-image: url('../asset/Image/pre-wedding/3I2A6366_resize.jpg') !important; 
+    .react-parallax-content {
+        font-size: 40px;
     }
 }
 @media only screen and (max-width: 400px) {
+    .photography-tab-quote {
+        font-size: 22px;
+    }
     .hero-image .react-parallax-bgimage {
        left: -35% !important;
     }
@@ -367,7 +385,7 @@ footer {
     .media-padding-top-100 {
         padding: 100px 0px;
     }
-    .react-photo-gallery--gallery {
-        margin: 0px 10px 10px 10px!important;
+    .react-parallax-content {
+        font-size: 30px;
     }
 }
