@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/photo-portfolio/static/css/main.0d083aa0.chunk.css",
-    "main.js": "/photo-portfolio/static/js/main.1be66898.chunk.js",
-    "main.js.map": "/photo-portfolio/static/js/main.1be66898.chunk.js.map",
+    "main.js": "/photo-portfolio/static/js/main.2b391c4b.chunk.js",
+    "main.js.map": "/photo-portfolio/static/js/main.2b391c4b.chunk.js.map",
     "runtime-main.js": "/photo-portfolio/static/js/runtime-main.0c59ece9.js",
     "runtime-main.js.map": "/photo-portfolio/static/js/runtime-main.0c59ece9.js.map",
     "static/css/2.f514d108.chunk.css": "/photo-portfolio/static/css/2.f514d108.chunk.css",
@@ -34,6 +34,8 @@
     "static/media/3I2A8999_resize.d2f2d6c7.jpg": "/photo-portfolio/static/media/3I2A8999_resize.d2f2d6c7.jpg",
     "static/media/3I2A9542_resize.36ad3613.jpg": "/photo-portfolio/static/media/3I2A9542_resize.36ad3613.jpg",
     "static/media/Sequence1.108407b0.gif": "/photo-portfolio/static/media/Sequence1.108407b0.gif",
+    "static/media/Sequence2.99831aac.gif": "/photo-portfolio/static/media/Sequence2.99831aac.gif",
+    "static/media/Sequence3.902d3948.gif": "/photo-portfolio/static/media/Sequence3.902d3948.gif",
     "static/media/ban1.3c8eb307.jpg": "/photo-portfolio/static/media/ban1.3c8eb307.jpg",
     "static/media/facebook-circular-logo.7f1edf03.svg": "/photo-portfolio/static/media/facebook-circular-logo.7f1edf03.svg",
     "static/media/header2.9b0e1214.png": "/photo-portfolio/static/media/header2.9b0e1214.png",
@@ -61,6 +63,6 @@
     "static/css/2.f514d108.chunk.css",
     "static/js/2.0cbb5007.chunk.js",
     "static/css/main.0d083aa0.chunk.css",
-    "static/js/main.1be66898.chunk.js"
+    "static/js/main.2b391c4b.chunk.js"
   ]
 }
