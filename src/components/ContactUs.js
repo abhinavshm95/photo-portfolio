@@ -23,7 +23,7 @@ export default function ContactUs() {
             bgImageAlt="Hero Image"
             strength={300}
         >
-            <div style={{ height: '100vh' }} />
+            <div style={{ height: '50vh' }} />
         </Parallax>
         <Container>
             <Row style={{margin: "30px"}}>

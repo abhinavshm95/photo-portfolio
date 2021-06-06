@@ -66,28 +66,28 @@ const wedPhotos = [
 const preWedPhotos = [
   {
     src: preWebImg1,
-    width: 4,
-    height: 3
+    width: 3,
+    height: 4
   },
   {
     src: preWebImg2,
-    width: 4,
-    height: 3
+    width: 3,
+    height: 4
   },
   {
     src: preWebImg3,
-    width: 4,
-    height: 3
+    width: 3,
+    height: 4
   },
   {
     src: preWebImg4,
-    width: 4,
-    height: 3
+    width: 3,
+    height: 4
   },
   {
     src: preWebImg5,
     width: 4,
-    height: 3
+    height: 1
   },
   {
     src: preWebImg6,
