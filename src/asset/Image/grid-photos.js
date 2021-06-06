@@ -29,13 +29,13 @@ import preWebImg19 from "./pre-wedding/3I2A9542_resize.jpg";
 const wedPhotos = [
   {
     src: img1,
-    width: 4,
-    height: 3
+    width: 40,
+    height: 30
   },
   {
     src: img2,
-    width: 4,
-    height: 3
+    width: 40,
+    height: 30
   },
   {
     src: img3,

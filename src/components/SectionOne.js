@@ -7,6 +7,8 @@ import VideoContainer from './VideoContainer';
 import PhotoGrid from "./PhotoGrid";
 import { wedPhotos } from "../asset/Image/grid-photos";
 import parallaxGif1 from '../asset/gif/Sequence1.gif';
+import parallaxGif2 from '../asset/gif/Sequence2.gif';
+import parallaxGif3 from '../asset/gif/Sequence3.gif';
 // import { CSSTransition } from "react-transition-group";
 import LazyLoad from "react-lazyload";
 import BlockInfo from "./BlockInfo";
@@ -31,6 +33,40 @@ export default function SectionOne() {
                 </TransitionGroup>
             </LazyLoad>
 
+            <Container fluid className="d-flex">
+                <Row className="recent-photograph">
+                    Pre Weddings
+                </Row>
+            </Container>
+            <PhotoGrid imageArr={wedPhotos}></PhotoGrid>
+            <LazyLoad key="3" height={200} throttle={200}>
+                <TransitionGroup>
+                    <CSSTransition timeout={500} classNames="fade" appear={true}>
+                        <Parallax
+                            bgImage={parallaxGif3}
+                            bgImageAlt="the dog"
+                            strength={200}>
+                            <div style={{ height: '60vh' }} />
+                        </Parallax>
+                    </CSSTransition>
+                </TransitionGroup>
+            </LazyLoad>
+            <Container fluid className="d-flex">
+                <Row className="recent-photograph">
+                    Wedding Photography
+                </Row>
+            </Container>
+            <PhotoGrid imageArr={wedPhotos}></PhotoGrid>
+            
+
+            <LazyLoad key="2" height={200} throttle={200}>
+                <TransitionGroup>
+                    <CSSTransition timeout={5000} classNames="fade" appear={true}>
+                        <BlockInfo></BlockInfo>
+                    </CSSTransition>
+                </TransitionGroup>
+            </LazyLoad>
+
 
             <div className="sectionOne">
                 <div className="sectionOne-container">
@@ -44,39 +80,6 @@ export default function SectionOne() {
                 </div>
             </div>
 
-            <LazyLoad key="2" height={200} throttle={200}>
-                <TransitionGroup>
-                    <CSSTransition timeout={5000} classNames="fade" appear={true}>
-                        <BlockInfo></BlockInfo>
-                    </CSSTransition>
-                </TransitionGroup>
-            </LazyLoad>
-
-            <LazyLoad key="3" height={200} throttle={200}>
-                <TransitionGroup>
-                    <CSSTransition timeout={500} classNames="fade" appear={true}>
-                        <Parallax
-                            bgImage={parallaxGif1}
-                            bgImageAlt="the dog"
-                            strength={200}>
-                            <div style={{ height: '100vh' }} />
-                        </Parallax>
-                    </CSSTransition>
-                </TransitionGroup>
-            </LazyLoad>
-
-            <Container fluid className="d-flex">
-                <Row className="recent-photograph">
-                    Pre Weddings
-                </Row>
-            </Container>
-            <PhotoGrid imageArr={wedPhotos}></PhotoGrid>
-            <Container fluid className="d-flex">
-                <Row className="recent-photograph">
-                    Wedding Photography
-                </Row>
-            </Container>
-            <PhotoGrid imageArr={wedPhotos}></PhotoGrid>
             <Container fluid className="contact-us-banner">
                 <Row>
                     We don’t trust words. We trust pictures.
