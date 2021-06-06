@@ -26,6 +26,7 @@
     "react-router-transition": "^2.1.0",
     "react-scripts": "4.0.1",
     "react-slick": "^0.28.0",
+    "react-transition-group": "^4.4.2",
     "slick-carousel": "^1.8.1",
     "three": "^0.125.2",
     "web-vitals": "^0.2.4"
