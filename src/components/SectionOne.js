@@ -2,14 +2,11 @@ import React from "react";
 import header2 from "../asset/Image/header2.png";
 import check from "../asset/Image/resize_main-page.jpg";
 import { Parallax } from "react-parallax";
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import VideoContainer from './VideoContainer';
 import PhotoGrid from "./PhotoGrid";
-import { wedPhotos } from "../asset/Image/grid-photos";
-import parallaxGif1 from '../asset/gif/Sequence1.gif';
-import parallaxGif2 from '../asset/gif/Sequence2.gif';
+import { wedPhotos, preWedPhotos } from "../asset/Image/grid-photos";
 import parallaxGif3 from '../asset/gif/Sequence3.gif';
-// import { CSSTransition } from "react-transition-group";
 import LazyLoad from "react-lazyload";
 import BlockInfo from "./BlockInfo";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
@@ -38,7 +35,7 @@ export default function SectionOne() {
                     Pre Weddings
                 </Row>
             </Container>
-            <PhotoGrid imageArr={wedPhotos}></PhotoGrid>
+            <PhotoGrid imageArr={preWedPhotos}></PhotoGrid>
             <LazyLoad key="3" height={200} throttle={200}>
                 <TransitionGroup>
                     <CSSTransition timeout={500} classNames="fade" appear={true}>
@@ -59,13 +56,13 @@ export default function SectionOne() {
             <PhotoGrid imageArr={wedPhotos}></PhotoGrid>
             
 
-            <LazyLoad key="2" height={200} throttle={200}>
+            {/* <LazyLoad key="2" height={200} throttle={200}>
                 <TransitionGroup>
-                    <CSSTransition timeout={5000} classNames="fade" appear={true}>
+                    <CSSTransition timeout={5000} classNames="fade" appear={true}> */}
                         <BlockInfo></BlockInfo>
-                    </CSSTransition>
+                    {/* </CSSTransition>
                 </TransitionGroup>
-            </LazyLoad>
+            </LazyLoad> */}
 
 
             <div className="sectionOne">

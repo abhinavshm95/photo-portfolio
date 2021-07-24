@@ -1,6 +1,5 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
-import gif from "../asset/Image/test_gif.gif";
 import pic1 from "../asset/Image/resize5.jpg"
 import VideoContainer from './VideoContainer';
 import { Container, Row } from "react-bootstrap";

@@ -1,48 +1,5 @@
-// import React, { Component } from 'react';
-// import GoogleMapReact from 'google-map-react';
-
-// const AnyReactComponent = ({ text }) => <div>{text}</div>;
-
-// class SimpleMap extends Component {
-//   static defaultProps = {
-//     center: {
-//       lat: 26.583069132639512,
-//       lng: 74.84841454472033
-//     },
-//     zoom: 11
-//   };
-
-//   render() {
-//     return (
-//       // Important! Always set the container height explicitly
-//       <div style={{ height: '100vh', width: '100%' }}>
-//         <GoogleMapReact
-//           bootstrapURLKeys={{ key: "AIzaSyB7V-mAjEzzmP6PCQda8To0ZW_o3UOCVCE" }}
-//           defaultCenter={this.props.center}
-//           defaultZoom={this.props.zoom}
-//         >
-//           <Marker
-//       // onClick={this.onMarkerClick}
-//       name={storedLocations[0]}
-//       position={{lat:listLatitude[0], lan:listLongitude[0]}}
-//     />   
-//           <AnyReactComponent
-//             lat={26.583069132639512}
-//             lng={74.84841454472033}
-//             text="My Marker"
-//           />
-//         </GoogleMapReact>
-//       </div>
-//     );
-//   }
-// }
-
-// export default SimpleMap;
-
-
-
 import React from 'react';
-import { GoogleMap, InfoWindow, LoadScript, Marker } from '@react-google-maps/api';
+import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 import $ from 'jquery'; 
 
 export default function SimpleMap() {

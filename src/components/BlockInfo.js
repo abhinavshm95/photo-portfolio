@@ -17,12 +17,12 @@ export default function () {
                     </div>
                 </Col>
                 <Col md={6} className="margin-0-padding-0">
-                    <img src={tileImg1} style={{ width: "100%" }}></img>
+                    <img src={tileImg1} style={{ width: "100%" }} alt="block-image1"></img>
                 </Col>
             </Row>
             <Row className="margin-0-padding-0">
                 <Col md={6} className="margin-0-padding-0">
-                    <img src={tileImg2} style={{ width: "100%" }}></img>
+                    <img src={tileImg2} style={{ width: "100%" }} alt="block-image2"></img>
                 </Col>
                 <Col md={6} className="margin-0-padding-0">
                     <div className="text-tile">

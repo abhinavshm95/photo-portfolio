@@ -5,10 +5,6 @@ import 'react-image-lightbox/style.css'; // This only needs to be imported once 
 import "../stylesheets/portfolio.css";
 import "../stylesheets/map.css";
 import "../stylesheets/contactBtn.css";
-import img1 from "../asset/Image/resize2.jpg";
-import img3 from "../asset/Image/sample5.png";
-import img4 from "../asset/Image/ban1.jpg";
-import img2 from "../asset/Image/sample6.png";
 import SectionOne from './SectionOne';
 import Footer from './Footer';
 import "slick-carousel/slick/slick.css"; 

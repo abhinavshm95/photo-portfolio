@@ -1,10 +1,8 @@
 import React from 'react'
 import { Col, Container, Form, Row, Button } from 'react-bootstrap';
 import { Parallax } from 'react-parallax';
-import check from "../asset/Image/Wedding/3I2A0252_resize.jpg";
+import check from "../asset/Image/Wedding/1.jpg";
 import SimpleMap from "./SimpleMap"
-import tileImg1 from "../asset/Image/resize8.jpg";
-import tileImg2 from "../asset/Image/resize9.jpg";
 import axios from 'axios';
 
 const onFormSubmit = e => {
