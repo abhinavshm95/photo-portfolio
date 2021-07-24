@@ -19,7 +19,7 @@ export default function SectionOne() {
                     <CSSTransition timeout={500} classNames="fade" appear={true}>
                         <Parallax
                             className="hero-image"
-                            // blur={{ min: -15, max: 15 }}
+                            blur={{ min: -15, max: 15 }}
                             bgImage={check}
                             bgImageAlt="Hero Image"
                             strength={300}
