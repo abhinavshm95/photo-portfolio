@@ -291,6 +291,9 @@ footer {
 .css-1cm5myo {
     max-height: 100vh !important;
 }
+.hero-image-contactus img {
+    top: -17%
+}
 @media only screen and (max-width: 967px) {
     .contact-us-banner > div {
         font-size: 48px;

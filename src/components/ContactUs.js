@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Form, Row, Button } from 'react-bootstrap';
 import { Parallax } from 'react-parallax';
-import check from "../asset/Image/Wedding/1.jpg";
+import check from "../asset/Image/Con01.jpg";
 import SimpleMap from "./SimpleMap"
 import axios from 'axios';
 
@@ -21,7 +21,7 @@ export default function ContactUs() {
             bgImageAlt="Hero Image"
             strength={300}
         >
-            <div style={{ height: '50vh' }} />
+            <div style={{ height: '60vh' }} />
         </Parallax>
         <Container>
             <Row style={{margin: "30px"}}>

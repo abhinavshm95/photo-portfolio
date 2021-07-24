@@ -19,7 +19,7 @@ export default function SectionOne() {
                     <CSSTransition timeout={500} classNames="fade" appear={true}>
                         <Parallax
                             className="hero-image"
-                            blur={{ min: -15, max: 15 }}
+                            // blur={{ min: -15, max: 15 }}
                             bgImage={check}
                             bgImageAlt="Hero Image"
                             strength={300}
@@ -29,13 +29,12 @@ export default function SectionOne() {
                     </CSSTransition>
                 </TransitionGroup>
             </LazyLoad>
-
             <Container fluid className="d-flex">
                 <Row className="recent-photograph">
-                    Pre Weddings
+                    Wedding Photography
                 </Row>
             </Container>
-            <PhotoGrid imageArr={preWedPhotos}></PhotoGrid>
+            <PhotoGrid imageArr={wedPhotos}></PhotoGrid>
             <LazyLoad key="3" height={200} throttle={200}>
                 <TransitionGroup>
                     <CSSTransition timeout={500} classNames="fade" appear={true}>
@@ -50,10 +49,10 @@ export default function SectionOne() {
             </LazyLoad>
             <Container fluid className="d-flex">
                 <Row className="recent-photograph">
-                    Wedding Photography
+                    Pre Weddings
                 </Row>
             </Container>
-            <PhotoGrid imageArr={wedPhotos}></PhotoGrid>
+            <PhotoGrid imageArr={preWedPhotos}></PhotoGrid>
             
 
             {/* <LazyLoad key="2" height={200} throttle={200}>
