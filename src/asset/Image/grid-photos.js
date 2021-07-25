@@ -592,22 +592,22 @@ const mixPhotos = [
   {
     src: mixPhotos33,
     width: 1546,
-    height: 1546
+    height: 1030
   },
   {
     src: mixPhotos34,
     width: 1546,
-    height: 1546
+    height: 1030
   },
   {
     src: mixPhotos35,
     width: 1546,
-    height: 1546
+    height: 1030
   },
   {
     src: mixPhotos36,
     width: 1546,
-    height: 1546
+    height: 1030
   },
   {
     src: mixPhotos37,
