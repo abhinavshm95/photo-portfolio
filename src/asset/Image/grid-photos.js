@@ -1,7 +1,7 @@
-import img1 from "./Wedding/1.jpg";
+import img4 from "./Wedding/1.jpg";
 import img2 from "./Wedding/2.jpg";
 import img3 from "./Wedding/3.jpg";
-import img4 from "./Wedding/4.jpg";
+import img1 from "./Wedding/4.jpg";
 import img5 from "./Wedding/5.jpg";
 import img6 from "./Wedding/6.jpg";
 import img7 from "./Wedding/7.jpg";
@@ -27,6 +27,8 @@ import img25 from "./Wedding/25.jpg";
 import M1 from "../Image/M1.jpg";
 import M2 from "../Image/M2.jpg";
 import M3 from "../Image/M3.jpg";
+import PW1 from "../Image/M4.jpg";
+import PW2 from "../Image/M5.jpg";
 
 import preWebImg1 from "./pre-wedding/1.jpg";
 import preWebImg2 from "./pre-wedding/2.jpg";
@@ -115,8 +117,8 @@ const wedPhotos = [
   },
   {
     src: img4,
-    width: 4,
-    height: 3
+    width: 45,
+    height: 28
   },
   {
     src: img5,
@@ -242,33 +244,33 @@ const wedPhotos = [
 const preWedPhotos = [
   {
     src: preWebImg1,
-    width: 3,
-    height: 4
+    width: 4,
+    height: 3
   },
   {
     src: preWebImg2,
-    width: 3,
-    height: 4
+    width: 4,
+    height: 3
   },
   {
     src: preWebImg3,
-    width: 3,
-    height: 4
+    width: 4,
+    height: 3
   },
   {
     src: preWebImg4,
-    width: 3,
-    height: 4
+    width: 4,
+    height: 3
   },
   {
     src: preWebImg5,
     width: 4,
-    height: 1
+    height: 3
   },
   {
     src: preWebImg6,
-    width: 4,
-    height: 3
+    width: 3,
+    height: 4
   },
   {
     src: preWebImg7,
@@ -279,6 +281,11 @@ const preWedPhotos = [
     src: preWebImg8,
     width: 4,
     height: 3
+  },
+  {
+    src: PW1,
+    width: 40,
+    height: 8
   },
   {
     src: preWebImg9,
@@ -292,8 +299,8 @@ const preWedPhotos = [
   },
   {
     src: preWebImg11,
-    width: 4,
-    height: 3
+    width: 3,
+    height: 4
   },
   {
     src: preWebImg12,
@@ -312,8 +319,8 @@ const preWedPhotos = [
   },
   {
     src: preWebImg15,
-    width: 4,
-    height: 3
+    width: 3,
+    height: 4
   },
   {
     src: preWebImg16,
@@ -336,6 +343,11 @@ const preWedPhotos = [
     height: 3
   },
   {
+    src: PW2,
+    width: 40,
+    height: 8
+  },
+  {
     src: preWebImg20,
     width: 4,
     height: 3
@@ -347,13 +359,13 @@ const preWedPhotos = [
   },
   {
     src: preWebImg22,
-    width: 4,
-    height: 3
+    width: 3,
+    height: 4
   },
   {
     src: preWebImg23,
-    width: 4,
-    height: 3
+    width: 3,
+    height: 4
   },
   {
     src: preWebImg24,
@@ -364,7 +376,7 @@ const preWedPhotos = [
     src: preWebImg25,
     width: 4,
     height: 3
-  },
+  }
 ]
 const mixPhotos = [
   {
