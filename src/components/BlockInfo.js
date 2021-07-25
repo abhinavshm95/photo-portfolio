@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import tileImg1 from "../asset/Image/resize8.jpg";
+import tileImg1 from "../asset/Image/blockImage1.jpg";
 import tileImg2 from "../asset/Image/resize9.jpg";
 
 export default function () {

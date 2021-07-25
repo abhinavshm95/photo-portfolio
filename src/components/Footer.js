@@ -16,15 +16,15 @@ export default function Footer() {
                         </div>
                     </Col>
                     <Col md={4} className="align-centre" >
-                        <a className="social-icon" href="www.fastlap.com" target="_blank">
+                        <a className="social-icon" href="https://www.facebook.com/sanjanastudioksg" target="_blank">
                             <span style={{ backgroundImage: `url('${fb}')` }}></span>
                             <p className="social-text">Facebook</p>
                         </a>
-                        <a className="social-icon" href="https://wa.me/9214968921" target="_blank">
+                        <a className="social-icon" href="https://wa.me/9929684444" target="_blank">
                             <span style={{ backgroundImage: `url('${whatsapp}')` }}></span>
                             <p className="social-text">Whatsapp</p>
                         </a>
-                        <a className="social-icon" href="www.fastlap.com" target="_blank">
+                        <a className="social-icon" href="https://www.instagram.com/happy_endings00" target="_blank">
                             <span style={{ backgroundImage: `url('${insta}')` }}></span>
                             <p className="social-text">Instagram</p>
                         </a>

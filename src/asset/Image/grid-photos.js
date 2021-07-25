@@ -29,6 +29,7 @@ import M2 from "../Image/M2.jpg";
 import M3 from "../Image/M3.jpg";
 import PW1 from "../Image/M4.jpg";
 import PW2 from "../Image/M5.jpg";
+import PW3 from "../Image/M6.jpg";
 
 import preWebImg1 from "./pre-wedding/1.jpg";
 import preWebImg2 from "./pre-wedding/2.jpg";
@@ -98,491 +99,760 @@ import mixPhotos38 from "./MixPhotos/38.jpg";
 import mixPhotos39 from "./MixPhotos/39.jpg";
 import mixPhotos40 from "./MixPhotos/40.jpg";
 import mixPhotos41 from "./MixPhotos/41.jpg";
+import mixPhotos42 from "./MixPhotos/42.jpg";
+import mixPhotos43 from "./MixPhotos/43.jpg";
+import mixPhotos44 from "./MixPhotos/44.jpg";
+import mixPhotos45 from "./MixPhotos/45.jpg";
+import mixPhotos46 from "./MixPhotos/46.jpg";
+import mixPhotos47 from "./MixPhotos/47.jpg";
+import mixPhotos48 from "./MixPhotos/48.jpg";
+import mixPhotos49 from "./MixPhotos/49.jpg";
+import mixPhotos50 from "./MixPhotos/50.jpg";
+import mixPhotos51 from "./MixPhotos/51.jpg";
+import mixPhotos52 from "./MixPhotos/52.jpg";
+import mixPhotos53 from "./MixPhotos/53.jpg";
+import mixPhotos54 from "./MixPhotos/54.jpg";
+import mixPhotos55 from "./MixPhotos/55.jpg";
+import mixPhotos56 from "./MixPhotos/56.jpg";
+import mixPhotos57 from "./MixPhotos/57.jpg";
+import mixPhotos58 from "./MixPhotos/58.jpg";
+import mixPhotos59 from "./MixPhotos/59.jpg";
+import mixPhotos60 from "./MixPhotos/60.jpg";
+import mixPhotos61 from "./MixPhotos/61.jpg";
+import mixPhotos62 from "./MixPhotos/62.jpg";
+import mixPhotos63 from "./MixPhotos/63.jpg";
+import mixPhotos64 from "./MixPhotos/64.jpg";
+import mixPhotos65 from "./MixPhotos/65.jpg";
+import mixPhotos66 from "./MixPhotos/66.jpg";
+import mixPhotos67 from "./MixPhotos/67.jpg";
+import mixPhotos68 from "./MixPhotos/68.jpg";
+import mixPhotos69 from "./MixPhotos/69.jpg";
+import mixPhotos70 from "./MixPhotos/70.jpg";
+import mixPhotos71 from "./MixPhotos/71.jpg";
+import mixPhotos72 from "./MixPhotos/72.jpg";
+import mixPhotos73 from "./MixPhotos/73.jpg";
+import mixPhotos74 from "./MixPhotos/74.jpg";
+import mixPhotos75 from "./MixPhotos/75.jpg";
+import mixPhotos76 from "./MixPhotos/76.jpg";
+import mixPhotos77 from "./MixPhotos/77.jpg";
+import mixPhotos78 from "./MixPhotos/78.jpg";
+import mixPhotos79 from "./MixPhotos/79.jpg";
+import mixPhotos80 from "./MixPhotos/80.jpg";
+import mixPhotos81 from "./MixPhotos/81.jpg";
+import mixPhotos82 from "./MixPhotos/82.jpg";
+import mixPhotos83 from "./MixPhotos/83.jpg";
+import mixPhotos84 from "./MixPhotos/84.jpg";
+import mixPhotos85 from "./MixPhotos/85.jpg";
 
 const wedPhotos = [
   {
     src: img1,
-    width: 45,
-    height: 28
+    width: 1680,
+    height: 1120
   },
   {
     src: img2,
-    width: 45,
-    height: 28
+    width: 1546,
+    height: 1030
   },
   {
     src: img3,
-    width: 4,
-    height: 3
+    width: 1680,
+    height: 1120
   },
   {
     src: img4,
-    width: 45,
-    height: 28
+    width: 1680,
+    height: 1120
   },
   {
     src: img5,
-    width: 3,
-    height: 4
+    width: 1030,
+    height: 1546
   },
   {
     src: img6,
-    width: 45,
-    height: 28
+    width: 1546,
+    height: 1030
   },
   {
     src: img7,
-    width: 4,
-    height: 3
+    width: 2150,
+    height: 1434
   },
   {
     src: M2,
-    width: 40,
-    height: 8
+    width: 1546,
+    height: 332
   },
   {
     src: img8,
-    width: 45,
-    height: 28
+    width: 2150,
+    height: 1434
   },
   {
     src: img9,
-    width: 4,
-    height: 3
+    width: 2150,
+    height: 1434
   },
   {
     src: img10,
-    width: 3,
-    height: 4
+    width: 1434,
+    height: 2150
   },
   {
     src: img11,
-    width: 4,
-    height: 3
+    width: 1546,
+    height: 1030
   },
   {
     src: img12,
-    width: 4,
-    height: 3
+    width: 1680,
+    height: 1120
   },
   {
     src: img13,
-    width: 4,
-    height: 3
+    width: 1546,
+    height: 1030
   },
   {
     src: img14,
-    width: 45,
-    height: 28
+    width: 1680,
+    height: 1120
   },
   {
     src: img15,
-    width: 4,
-    height: 3
+    width: 1546,
+    height: 1030
   },
   {
     src: img16,
-    width: 4,
-    height: 3
+    width: 1546,
+    height: 1030
   },
   {
     src: M3,
-    width: 40,
-    height: 8
+    width: 1546,
+    height: 332
   },
   {
     src: img17,
-    width: 3,
-    height: 4
+    width: 1030,
+    height: 1546
   },
   {
     src: img18,
-    width: 3,
-    height: 4
+    width: 1030,
+    height: 1546
   },
   {
     src: img19,
-    width: 4,
-    height: 3
+    width: 1546,
+    height: 1030
   },
   {
     src: img20,
-    width: 3,
-    height: 4
+    width: 1030,
+    height: 1546
   },
   {
     src: img21,
-    width: 4,
-    height: 3
+    width: 1546,
+    height: 1030
   },
   {
     src: img22,
-    width: 45,
-    height: 28
+    width: 1680,
+    height: 1120
   },
   {
     src: img23,
-    width: 45,
-    height: 28
+    width: 1680,
+    height: 1120
   },
   {
     src: img24,
-    width: 4,
-    height: 3
+    width: 1680,
+    height: 1120
   },
   {
     src: img25,
-    width: 45,
-    height: 28
+    width: 1680,
+    height: 1120
   },
   {
     src: M1,
-    width: 40,
-    height: 8
+    width: 1546,
+    height: 332
   }
 ]
 const preWedPhotos = [
   {
     src: preWebImg1,
-    width: 4,
-    height: 3
+    width: 2150,
+    height: 1434
   },
   {
     src: preWebImg2,
-    width: 4,
-    height: 3
+    width: 3600,
+    height: 2400
   },
   {
     src: preWebImg3,
-    width: 4,
-    height: 3
+    width: 2150,
+    height: 1434
   },
   {
     src: preWebImg4,
-    width: 4,
-    height: 3
+    width: 2150,
+    height: 1434
   },
   {
     src: preWebImg5,
-    width: 4,
-    height: 3
+    width: 3600,
+    height: 2400
   },
   {
     src: preWebImg6,
-    width: 3,
-    height: 4
+    width: 1434,
+    height: 2150
   },
   {
     src: preWebImg7,
-    width: 4,
-    height: 3
+    width: 2150,
+    height: 1434
   },
   {
     src: preWebImg8,
-    width: 4,
-    height: 3
+    width: 3600,
+    height: 2400
   },
   {
     src: PW1,
-    width: 40,
-    height: 8
+    width: 1546,
+    height: 332
   },
   {
     src: preWebImg9,
-    width: 4,
-    height: 3
+    width: 3000,
+    height: 2001
   },
   {
     src: preWebImg10,
-    width: 4,
-    height: 3
+    width: 2150,
+    height: 1434
   },
   {
     src: preWebImg11,
-    width: 3,
-    height: 4
+    width: 1434,
+    height: 2150
   },
   {
     src: preWebImg12,
-    width: 4,
-    height: 3
+    width: 2150,
+    height: 1434
   },
   {
     src: preWebImg13,
-    width: 4,
-    height: 3
+    width: 2150,
+    height: 1434
   },
   {
     src: preWebImg14,
-    width: 4,
-    height: 3
+    width: 2150,
+    height: 1434
   },
   {
     src: preWebImg15,
-    width: 3,
-    height: 4
+    width: 1434,
+    height: 2150
   },
   {
     src: preWebImg16,
-    width: 4,
-    height: 3
+    width: 2150,
+    height: 1434
   },
   {
     src: preWebImg17,
-    width: 4,
-    height: 3
+    width: 2150,
+    height: 1434
   },
   {
     src: preWebImg18,
-    width: 4,
-    height: 3
+    width: 2150,
+    height: 1434
   },
   {
     src: preWebImg19,
-    width: 4,
-    height: 3
+    width: 2150,
+    height: 1434
   },
   {
     src: PW2,
-    width: 40,
-    height: 8
+    width: 1546,
+    height: 332
   },
   {
     src: preWebImg20,
-    width: 4,
-    height: 3
+    width: 2150,
+    height: 1434
   },
   {
     src: preWebImg21,
-    width: 4,
-    height: 3
+    width: 2150,
+    height: 1434
   },
   {
     src: preWebImg22,
-    width: 3,
-    height: 4
+    width: 1434,
+    height: 2150
   },
   {
     src: preWebImg23,
-    width: 3,
-    height: 4
+    width: 1434,
+    height: 2150
   },
   {
     src: preWebImg24,
-    width: 4,
-    height: 3
+    width: 2150,
+    height: 1434
   },
   {
     src: preWebImg25,
-    width: 4,
-    height: 3
-  }
+    width: 2150,
+    height: 1434
+  },
+  {
+    src: PW3,
+    width: 1546,
+    height: 332
+  },
 ]
 const mixPhotos = [
   {
     src: mixPhotos1,
-    width: 4,
-    height: 3
-  },
-  {
-    src: mixPhotos2,
-    width: 4,
-    height: 3
-  },
-  {
-    src: mixPhotos3,
-    width: 3,
-    height: 4
+    width: 1030,
+    height: 1546
   },
   {
     src: mixPhotos4,
-    width: 4,
-    height: 3
-  },
-  {
-    src: mixPhotos5,
-    width: 4,
-    height: 1
-  },
-  {
-    src: mixPhotos6,
-    width: 4,
-    height: 3
+    width: 1546,
+    height: 1030
   },
   {
     src: mixPhotos7,
-    width: 4,
-    height: 3
+    width: 1030,
+    height: 1546
   },
   {
     src: mixPhotos8,
-    width: 4,
-    height: 3
+    width: 1546,
+    height: 1030
   },
   {
     src: mixPhotos9,
-    width: 4,
-    height: 3
+    width: 1030,
+    height: 1546
   },
   {
     src: mixPhotos10,
-    width: 4,
-    height: 3
+    width: 1546,
+    height: 1030
+  },
+  {
+    src: mixPhotos6,
+    width: 1030,
+    height: 1546
   },
   {
     src: mixPhotos11,
-    width: 3,
-    height: 4
+    width: 1546,
+    height: 1030
+  },
+  {
+    src: mixPhotos2,
+    width: 1030,
+    height: 1546
   },
   {
     src: mixPhotos12,
-    width: 4,
-    height: 3
-  },
-  {
-    src: mixPhotos13,
-    width: 3,
-    height: 4
+    width: 1546,
+    height: 1030
   },
   {
     src: mixPhotos14,
-    width: 4,
-    height: 3
+    width: 1030,
+    height: 1546
+  },
+  {
+    src: mixPhotos13,
+    width: 1546,
+    height: 1030
   },
   {
     src: mixPhotos15,
-    width: 4,
-    height: 3
+    width: 1030,
+    height: 1546
   },
   {
     src: mixPhotos16,
-    width: 4,
-    height: 3
+    width: 1546,
+    height: 1030
   },
   {
     src: mixPhotos17,
-    width: 4,
-    height: 3
+    width: 1546,
+    height: 1030
+  },
+  {
+    src: mixPhotos3,
+    width: 1030,
+    height: 1546
   },
   {
     src: mixPhotos18,
-    width: 3,
-    height: 4
+    width: 1030,
+    height: 1546
   },
   {
     src: mixPhotos19,
-    width: 4,
-    height: 3
+    width: 1030,
+    height: 1546
   },
   {
     src: mixPhotos20,
-    width: 4,
-    height: 3
+    width: 1546,
+    height: 1030
   },
   {
     src: mixPhotos21,
-    width: 4,
-    height: 3
+    width: 1546,
+    height: 1030
+  },
+  {
+    src: mixPhotos5,
+    width: 1030,
+    height: 1546
   },
   {
     src: mixPhotos22,
-    width: 4,
-    height: 3
+    width: 1546,
+    height: 1030
   },
   {
     src: mixPhotos24,
-    width: 3,
-    height: 4
+    width: 1546,
+    height: 1030
   },
   {
     src: mixPhotos25,
-    width: 4,
-    height: 3
+    width: 1546,
+    height: 1030
   },
   {
     src: mixPhotos23,
-    width: 3,
-    height: 4
+    width: 1030,
+    height: 1546
   },
   {
     src: mixPhotos26,
-    width: 4,
-    height: 3
+    width: 1546,
+    height: 1030
   },
   {
     src: mixPhotos27,
-    width: 4,
-    height: 3
+    width: 1546,
+    height: 1030
   },
   {
     src: mixPhotos28,
-    width: 4,
-    height: 3
+    width: 1546,
+    height: 1030
   },
-  {
-    src: mixPhotos29,
-    width: 3,
-    height: 4
-  },
+  // {
+  //   src: mixPhotos29,
+  //   width: 1546,
+  //   height: 1030
+  // },
   {
     src: mixPhotos30,
-    width: 4,
-    height: 3
+    width: 1546,
+    height: 1030
   },
   {
     src: mixPhotos31,
-    width: 3,
-    height: 4
+    width: 1546,
+    height: 1030
   },
   {
     src: mixPhotos32,
-    width: 4,
-    height: 3
+    width: 1030,
+    height: 1546
   },
   {
     src: mixPhotos33,
-    width: 3,
-    height: 4
+    width: 1546,
+    height: 1546
   },
   {
     src: mixPhotos34,
-    width: 4,
-    height: 3
+    width: 1546,
+    height: 1546
   },
   {
     src: mixPhotos35,
-    width: 5,
-    height: 3
+    width: 1546,
+    height: 1546
   },
   {
     src: mixPhotos36,
-    width: 4,
-    height: 3
+    width: 1546,
+    height: 1546
   },
   {
     src: mixPhotos37,
-    width: 3,
-    height: 4
+    width: 1120,
+    height: 1680
   },
   {
     src: mixPhotos38,
-    width: 4,
-    height: 3
+    width: 1571,
+    height: 1047
   },
   {
     src: mixPhotos39,
-    width: 4,
-    height: 3
+    width: 1680,
+    height: 1120
   },
   {
     src: mixPhotos40,
-    width: 4,
-    height: 3
+    width: 1680,
+    height: 1120
   },
   {
     src: mixPhotos41,
-    width: 4,
-    height: 3
+    width: 1120,
+    height: 1680
   },
+  {
+    src: mixPhotos42,
+    width: 1680,
+    height: 1120
+  },
+  {
+    src: mixPhotos43,
+    width: 1120,
+    height: 1680
+  },
+  {
+    src: mixPhotos44,
+    width: 1120,
+    height: 1680
+  },
+  {
+    src: mixPhotos45,
+    width: 1680,
+    height: 1120
+  },
+  {
+    src: mixPhotos46,
+    width: 1680,
+    height: 1120
+  },
+  {
+    src: mixPhotos47,
+    width: 1680,
+    height: 1120
+  },
+  {
+    src: mixPhotos48,
+    width: 1680,
+    height: 1120
+  },
+  {
+    src: mixPhotos49,
+    width: 1680,
+    height: 1120
+  },
+  {
+    src: mixPhotos50,
+    width: 1680,
+    height: 1120
+  },
+  {
+    src: mixPhotos51,
+    width: 1120,
+    height: 1680
+  },
+  {
+    src: mixPhotos52,
+    width: 1680,
+    height: 1120
+  },
+  {
+    src: mixPhotos53,
+    width: 1680,
+    height: 1120
+  },
+  {
+    src: mixPhotos54,
+    width: 1680,
+    height: 1120
+  },
+  {
+    src: mixPhotos55,
+    width: 1120,
+    height: 1680
+  },
+  {
+    src: mixPhotos56,
+    width: 1680,
+    height: 1120
+  },
+  {
+    src: mixPhotos57,
+    width: 1680,
+    height: 1120
+  },
+  {
+    src: mixPhotos58,
+    width: 1680,
+    height: 1120
+  },
+  {
+    src: mixPhotos59,
+    width: 1680,
+    height: 1120
+  },
+  {
+    src: mixPhotos60,
+    width: 1120,
+    height: 1680
+  },
+  {
+    src: mixPhotos61,
+    width: 1100,
+    height: 1650
+  },
+  {
+    src: mixPhotos62,
+    width: 1680,
+    height: 1120
+  },
+  {
+    src: mixPhotos63,
+    width: 1546,
+    height: 1030
+  },
+  {
+    src: mixPhotos64,
+    width: 1680,
+    height: 1030
+  },
+  {
+    src: mixPhotos65,
+    width: 1680,
+    height: 1030
+  },
+  {
+    src: mixPhotos66,
+    width: 1680,
+    height: 1030
+  },
+  {
+    src: mixPhotos67,
+    width: 1680,
+    height: 1030
+  },
+  {
+    src: mixPhotos68,
+    width: 1680,
+    height: 1030
+  },
+  {
+    src: mixPhotos69,
+    width: 1030,
+    height: 1546
+  },
+  {
+    src: mixPhotos70,
+    width: 1546,
+    height: 1030
+  },
+  {
+    src: mixPhotos71,
+    width: 1015,
+    height: 1522
+  },
+  {
+    src: mixPhotos72,
+    width: 1546,
+    height: 1030
+  },
+  {
+    src: mixPhotos73,
+    width: 1546,
+    height: 1030
+  },
+  {
+    src: mixPhotos74,
+    width: 2150,
+    height: 1434
+  },
+  {
+    src: mixPhotos75,
+    width: 2150,
+    height: 1434
+  },
+  {
+    src: mixPhotos76,
+    width: 2150,
+    height: 1434
+  },
+  {
+    src: mixPhotos77,
+    width: 2150,
+    height: 1434
+  },
+  {
+    src: mixPhotos78,
+    width: 2150,
+    height: 1434
+  },
+  {
+    src: mixPhotos79,
+    width: 2150,
+    height: 1434
+  },
+  {
+    src: mixPhotos80,
+    width: 2150,
+    height: 1434
+  },
+  {
+    src: mixPhotos81,
+    width: 2150,
+    height: 1434
+  },
+  {
+    src: mixPhotos82,
+    width: 1680,
+    height: 1120
+  },
+  {
+    src: mixPhotos83,
+    width: 2100,
+    height: 1400
+  },
+  {
+    src: mixPhotos84,
+    width: 1629,
+    height: 1086
+  },
+  {
+    src: mixPhotos85,
+    width: 1680,
+    height: 1120
+  }
 ]
 export { wedPhotos, preWedPhotos, mixPhotos };

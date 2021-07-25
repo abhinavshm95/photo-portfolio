@@ -9,7 +9,8 @@ const onFormSubmit = e => {
     e.preventDefault();
     const {formBasicName, formBasicEmail, formBasicNumber } = e.target.elements;
     const Params = { Name: formBasicName.value, Email: formBasicEmail.value, Number: formBasicNumber.value };
-    axios.post('https://formspree.io/f/xqkwqbvz', Params).then();
+    // axios.post('https://formspree.io/f/xqkwqbvz', Params).then();
+    axios.post('https://formspree.io/f/mgerlgwj', Params).then();
   }
 
 export default function ContactUs() {
