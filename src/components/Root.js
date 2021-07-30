@@ -9,6 +9,7 @@ import SectionOne from './SectionOne';
 import Footer from './Footer';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import ScrollIntoView from "../utilities/ScrollIntoView";
 import {
     Switch,
     Route,
@@ -25,6 +26,7 @@ export default class Root extends Component {
                 <Router>
                 <Navigationbar>
                 </Navigationbar>
+                <ScrollIntoView>
                     <Switch>
                         <Route
                             exact
@@ -51,7 +53,13 @@ export default class Root extends Component {
                             path="/contactus"
                             render={props => <ContactUs />}
                         ></Route>
+                        <Route
+                            exact
+                            path="*"
+                            render={props => <SectionOne />}
+                        ></Route>
                     </Switch>
+                    </ScrollIntoView>
                 <Footer>
                 </Footer>
                 </Router>

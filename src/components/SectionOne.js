@@ -11,6 +11,7 @@ import LazyLoad from "react-lazyload";
 import BlockInfo from "./BlockInfo";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import { Helmet } from 'react-helmet'
+import { Link, Router } from "react-router-dom";
 
 export default function SectionOne() {
     return (
@@ -85,7 +86,7 @@ export default function SectionOne() {
                     We don’t trust words. We trust pictures.
                 </Row>
                 <Row>
-                    <a href="/contactus" className="contact-us-wrapper">Contact Us!</a>
+                    <Link className="contact-us-wrapper" to="/contactus" >Contact Us!</Link> 
                 </Row>
             </Container>
         </section>
