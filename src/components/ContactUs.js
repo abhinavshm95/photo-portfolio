@@ -4,6 +4,7 @@ import { Parallax } from 'react-parallax';
 import check from "../asset/Image/Con01.jpg";
 import SimpleMap from "./SimpleMap"
 import axios from 'axios';
+import { Helmet } from 'react-helmet';
 
 const onFormSubmit = e => {
     e.preventDefault();
@@ -15,6 +16,9 @@ const onFormSubmit = e => {
 
 export default function ContactUs() {
     return (<>
+        <Helmet>
+            <title>Contact Us</title>
+        </Helmet>
         <Parallax
             className="hero-image-contactus"
             blur={{ min: -15, max: 15 }}

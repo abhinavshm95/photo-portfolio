@@ -3,10 +3,14 @@ import { Parallax } from 'react-parallax';
 import pic1 from "../asset/Image/resize5.jpg"
 import VideoContainer from './VideoContainer';
 import { Container, Row } from "react-bootstrap";
+import { Helmet } from 'react-helmet'
 
 export default function Films() {
     return (
         <div>
+            <Helmet>
+                <title>Films</title>
+            </Helmet>
             <Parallax
                 className="hero-image-film"
                 blur={{ min: -15, max: 15 }}

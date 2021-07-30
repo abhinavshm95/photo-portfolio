@@ -10,10 +10,14 @@ import parallaxGif3 from '../asset/gif/Sequence3.gif';
 import LazyLoad from "react-lazyload";
 import BlockInfo from "./BlockInfo";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
+import { Helmet } from 'react-helmet'
 
 export default function SectionOne() {
     return (
         <section>
+            <Helmet>
+                <title>Home</title>
+            </Helmet>
             <LazyLoad key="1" height={200} throttle={200}>
                 <TransitionGroup>
                     <CSSTransition timeout={500} classNames="fade" appear={true}>

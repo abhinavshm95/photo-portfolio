@@ -20,7 +20,7 @@ export default function Footer() {
                             <span style={{ backgroundImage: `url('${fb}')` }}></span>
                             <p className="social-text">Facebook</p>
                         </a>
-                        <a className="social-icon" href="https://wa.me/9929684444" target="_blank">
+                        <a className="social-icon" href="https://wa.me/919929684444" target="_blank">
                             <span style={{ backgroundImage: `url('${whatsapp}')` }}></span>
                             <p className="social-text">Whatsapp</p>
                         </a>
@@ -31,7 +31,7 @@ export default function Footer() {
                     </Col>
                     <Col md={4}>
                         <div className="contact-number">
-                            sanjanastudioksg@gmail.com <br /> +91-9214968921
+                            sanjanastudioksg@gmail.com <br /> 919214968921
                         </div>
                     </Col>
                 </Row>

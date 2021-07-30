@@ -4,10 +4,14 @@ import check from "../asset/Image/resize8.jpg";
 import { mixPhotos } from "../asset/Image/grid-photos.js";
 import PhotoGrid from "./PhotoGrid";
 import { Container, Row } from "react-bootstrap";
+import { Helmet } from 'react-helmet'
 
 export default function Photography() {
 
     return (<>
+        <Helmet>
+            <title>Photography</title>
+        </Helmet>
         <Parallax
             className="hero-image-photography"
             blur={{ min: -15, max: 15 }}

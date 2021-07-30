@@ -2,7 +2,6 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://abhinavshm95.github.io/photo-portfolio",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@react-google-maps/api": "^2.2.0",
@@ -16,6 +15,7 @@
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
     "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
     "react-image-lightbox": "^5.1.1",
     "react-images": "^1.0.0",
     "react-lazyload": "^3.2.0",
